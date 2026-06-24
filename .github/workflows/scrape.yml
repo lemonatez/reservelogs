@@ -2,8 +2,8 @@ name: Scrape BookWalker reservations
 
 on:
   schedule:
-    # 00:30 JST = 15:30 UTC (previous day)
-    - cron: "30 15 * * *"
+    # 00:15 JST = 15:15 UTC (previous day)
+    - cron: "15 15 * * *"
   workflow_dispatch: {}
 
 permissions:
