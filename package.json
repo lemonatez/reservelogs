@@ -1,0 +1,16 @@
+{
+  "name": "reservelogs",
+  "version": "1.0.0",
+  "description": "Daily scraper for BookWalker light novel pre-order reservation counts",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "scrape": "node src/scrape.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
