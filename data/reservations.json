@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24",
+  "lastUpdated": "2026-06-27",
   "series": [
     {
       "seriesId": "557677",
@@ -1927,10 +1927,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -1959,10 +1963,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -1991,10 +1999,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2027,11 +2039,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 3
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -2063,11 +2079,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 5
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -2099,10 +2119,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2135,10 +2159,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2171,10 +2199,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2207,10 +2239,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2243,11 +2279,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 4
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -2279,11 +2319,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 12
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 3
             }
           ]
         }
@@ -2315,11 +2359,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -2332,7 +2380,7 @@
       "titles": [
         {
           "productUuid": "ff25e0e1-a2d4-4f76-8f51-8e4592de5424",
-          "titleName": "アキツ大戦記 ２ 人の国",
+          "titleName": "アキツ大戦記 2 人の国【BOOK☆WALKER限定オリジナルSS付き】",
           "lightNovelType": "新文芸",
           "publisher": "マイクロマガジン社",
           "priceBeforeTax": 1300,
@@ -2351,10 +2399,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2387,11 +2439,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -2423,10 +2479,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2459,10 +2519,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2495,11 +2559,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -2531,10 +2599,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2567,11 +2639,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -2603,10 +2679,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2639,10 +2719,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2675,10 +2759,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2711,10 +2799,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2747,10 +2839,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2779,10 +2875,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2811,10 +2911,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -2866,6 +2970,55 @@
               "reservationNumber": 0
             }
           ]
+        },
+        {
+          "productUuid": "5ebc9d75-0053-431a-8bd7-e3a0bcece1f6",
+          "titleName": "ジ・アート・オブ トイ・ストーリー3",
+          "lightNovelType": "新文芸",
+          "publisher": "KADOKAWA",
+          "priceBeforeTax": 4500,
+          "priceAfterTax": 4950,
+          "synopsis": "映画『トイ・ストーリー3』公式アートブック。『ジ・アート・オブ トイ・ストーリー 3』では、世界的に著名なアニメーション史家チャールズ・ソロモンが、ピクサーチームが新たな冒険を創り上げる過程で直面した技術的課題、達成した成果、そして感情的な障壁を読者に紹介する。\n『ジ・アート・オブ トイ・ストーリー 3』には、最初の2作品にまつわるストーリーとビジュアル開発を紹介する拡張版イントロダクションに加え、250点以上のコンセプトアートを収録したギャラリーが収録されています。\nストーリーボード、キャラクター研究、カラーキー、参考写真、環境アート、そしてアートディレクターの堤大輔による『トイ・ストーリー3』カラースクリプトの特別折り込みページを掲載したこの豪華版は、トイ・ストーリー三部作全体の記憶に残る物語をお届けします。",
+          "originalPublicationDate": "2026-06-30",
+          "saleDate": "2026-06-30",
+          "staff": [
+            {
+              "name": "ウォルト・ディズニー・ジャパン株式会社",
+              "role": "監修"
+            },
+            {
+              "name": "チャールズ・ソロモン",
+              "role": "著者"
+            },
+            {
+              "name": "ジョン・ラセター",
+              "role": "序文"
+            },
+            {
+              "name": "リー・アンクリッチ",
+              "role": "まえがき"
+            },
+            {
+              "name": "ダーラ・Ｋ・アンダーソン",
+              "role": "まえがき"
+            },
+            {
+              "name": "齋藤　隼飛",
+              "role": "翻訳"
+            },
+            {
+              "name": "佐伯　真洋",
+              "role": "翻訳"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
         }
       ]
     },
@@ -2895,11 +3048,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 3
             }
           ]
         }
@@ -2931,11 +3088,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 6
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -2967,11 +3128,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 3
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 2
             }
           ]
         }
@@ -3003,11 +3168,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 10
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 2
             }
           ]
         }
@@ -3039,10 +3208,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 1
             }
           ]
@@ -3075,11 +3248,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -3111,11 +3288,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 3
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -3147,11 +3328,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 4
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -3183,10 +3368,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3219,11 +3408,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -3259,11 +3452,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -3295,10 +3492,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3331,10 +3532,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3367,10 +3572,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3439,11 +3648,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -3475,11 +3688,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -3497,7 +3714,7 @@
           "publisher": "TOブックス",
           "priceBeforeTax": 1272,
           "priceAfterTax": 1399,
-          "synopsis": "【電子書籍限定書き下ろしSS】＆【azな先生描き下ろしイラストとサイン】付き！\nお父さま、お母さま、\n絶望のフルコースを召し上がれ\n\n欲しいものは全て奪い取る！　孤高の切れもの幼女による痛快略奪ファンタジー！\n\n本編大幅加筆！\n＆\n書き下ろし番外編収録！\n\n\n「“良い子”はもうやめてやる！」\nノディエ伯爵家の別館に幽閉され、両親に育児放棄された8歳のブランシュ。\n彼女の唯一の拠り所【かぞく】は乳母のエマだけだったが、ある日無理やり引き裂かれてしまう。\n唯一の幸せすら壊された彼女が目指すのは――誰にも何も奪われない完璧なる悪女！\nまず、子供は魔法を使ってはいけないという魔法界の禁忌を犯してわざと捕まることに。\nそれを両親のせいにして、彼らの数々の悪事を世へ晒すことに成功！\n2人を破滅へと追いやり世に出た彼女は、次は祖父である公爵の後ろ盾を得るために画策を始める──。\nするとなぜか、主任魔法使いシルヴァンの目に留まって……？\n欲しいものは全て奪い取る！　孤高の切れ者幼女による痛快略奪ファンタジー！\n\n\n著者：ましろ\n小さなブランシュが、自分のことを「ぶらんちゅ」としか言えないのが大好きです（笑）書き下ろしている時に、永遠にこのままちびっこでいいのではという誘惑に負けかけましたが、何とか打ち勝つことができました。\n\nイラスト：azな\n作業中は紅茶を飲みつつ、集中力が切れた時にチョコをつまんでいます。\n最近はリアルなケーキの見た目をしたスクイーズにはまっていて、気分転換に触って癒されています。",
+          "synopsis": "【電子書籍限定書き下ろしSS】＆【azな先生描き下ろしイラストとサイン】付き！\nねぇ、皆様\n私の手のひらで踊ってね？\n\n欲しいものは全て奪い取る！　\n孤高の切れ者幼女による痛快略奪ファンタジー！\n\n本編大幅加筆！\n＆\n書き下ろし番外編収録！\n\n\n「“良い子”はもうやめてやる！」\nノディエ伯爵家の別館に幽閉され、両親に育児放棄された9歳のブランシュ。\n彼女の唯一の拠り所【かぞく】は乳母のエマだけだったが、ある日無理やり引き裂かれてしまう。\n唯一の幸せすら壊された彼女が目指すのは――誰にも何も奪われない完璧なる悪女！\nまず、子供は魔法を使ってはいけないという魔法界の禁忌を犯してわざと捕まることに。\nそれを両親のせいにして、彼らの数々の悪事を世へ晒すことに成功！\n2人を破滅へと追いやり世に出た彼女は、次は祖父である公爵の後ろ盾を得るために画策を始める──。\nするとなぜか、主任魔法使いシルヴァンの目に留まって……？\n欲しいものは全て奪い取る！　孤高の切れ者幼女による痛快略奪ファンタジー！\n\n\n著者：ましろ\n小さなブランシュが、自分のことを「ぶらんちゅ」としか言えないのが大好きです（笑）書き下ろしている時に、永遠にこのままちびっこでいいのではという誘惑に負けかけましたが、何とか打ち勝つことができました。\n\nイラスト：azな\n作業中は紅茶を飲みつつ、集中力が切れた時にチョコをつまんでいます。\n最近はリアルなケーキの見た目をしたスクイーズにはまっていて、気分転換に触って癒されています。",
           "originalPublicationDate": null,
           "saleDate": "2026-07-01",
           "staff": [
@@ -3511,10 +3728,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3533,7 +3754,7 @@
           "publisher": "TOブックス",
           "priceBeforeTax": 1272,
           "priceAfterTax": 1399,
-          "synopsis": "2026年7月1日よりTOKYO MX、BSフジほかにてTVアニメ放送開始！\ndアニメストア、ABEMAにて見放題独占配信決定！\n\nTOKYO MX：7月1日より毎週水曜22:00～\nBSフジ：7月1日より毎週水曜24:00～　※初回放送のみ24:30～スタート\nAT-X：7月3日より毎週金曜20:30～（リピート放送：毎週火曜8:30～、毎週木曜14:30～）\ndアニメストア、ABEMA ：6月24日より 毎週水曜 22:30～\n地上波1週間先行・見放題独占配信\n\n※放送・配信日時は予告なく変更となる場合がございます。\n\n詳細はアニメ公式サイトをご確認ください。\n\n【電子書籍限定書き下ろしSS】付き！\nシリーズ累計６０万部突破！（電子書籍含む）\n\n勘違いメイド無双ファンタジー第10弾♪\n\n\nロードピア帝国での浄化作戦中、突如現れた巨大な顎――\n“原初の魔王”フローズヴィトニルによって、ガルムの弟達は呑み込まれてしまった ！ \n２体の魔王が取り込まれたのだとすれば、残りの２体にも手が伸びるはず……。\nそうなればメロディでも勝てないと、何とか阻止するために一同動き出す！\nルシアナの命を受け、メロディは残る弟たちを救うため探索へ。\n不気味な湖の底に、彼らの魔力を発見するが──突然現れたグレイルが牙を剥いて！？　魔王の残滓をその身に密かに宿していた彼は、“負の魔力”を喰らい、巨大狼へと変貌を遂げてしまう。\nさらには王都にも黒い魔物の群れが襲来。迫る未曾有の危機に、最強メイドは──。\n愛すべき主人のついでに世界を救え！？　大人気勘違いメイド無双ファンタジー第10弾！",
+          "synopsis": "2026年7月1日よりTOKYO MX、BSフジほかにてTVアニメ放送開始！\ndアニメストア、ABEMAにて見放題独占配信決定！\n\nTOKYO MX：7月1日より毎週水曜22:00～\nBSフジ：7月1日より毎週水曜24:00～　※初回放送のみ24:30～スタート\nAT-X：7月3日より毎週金曜20:30～（リピート放送：毎週火曜8:30～、毎週木曜14:30～）\ndアニメストア、ABEMA ：6月24日より 毎週水曜 22:30～\n地上波1週間先行・見放題独占配信\n\n※放送・配信日時は予告なく変更となる場合がございます。\n\n詳細はアニメ公式サイトをご確認ください。\n\n【電子書籍限定書き下ろしSS】付き！\nシリーズ累計６０万部突破！（電子書籍含む）\n\n勘違いメイド無双ファンタジー第10弾♪\n\n\nロードピア帝国での浄化作戦中、突如現れた巨大な顎――\n“原初の魔王”フローズヴィトニルによって、ガルムの弟達が呑み込まれてしまった ！\n２体の魔王が取り込まれたのだとすれば、残りの２体にも手が伸びるはず……。\nそうなればメロディでも勝てないと、何とか阻止するために一同動き出す！\nルシアナの命を受け、メロディは残る弟たちを救うため探索へ。\n不気味な湖の底に彼らの魔力を発見するが、突然現れたグレイルが牙を剥いて！？　\nさらには王都にも黒い魔物の群れが襲来。迫る未曾有の危機に、最強メイドは──。\n愛すべき主人のついでに世界を救え！？　大人気勘違いメイド無双ファンタジー第10弾！\n\n\nあてきち\nずっと温めていたグレイルの話をやっと書くことができました。それと同時に、マイカの話も書きたかったし、シエスティーナやシュウ、セレディアにオリヴィアなど、深掘りしたいサブキャラがたくさんいて困ってしまいます。今回はそんな気持ちをギュッと詰め込んでみました。",
           "originalPublicationDate": null,
           "saleDate": "2026-07-01",
           "staff": [
@@ -3547,10 +3768,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3583,10 +3808,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3619,11 +3848,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -3641,7 +3874,7 @@
           "publisher": "TOブックス",
           "priceBeforeTax": 1272,
           "priceAfterTax": 1399,
-          "synopsis": "【電子書籍限定書き下ろしSS】＆【桜花舞先生描き下ろしイラストとサイン】付き！\n「追放上等！\nラスボス公爵様と結婚させていただきます！」\n鈍感な元意地悪姉×不器用なラスボス公爵が\n過去の傷を癒しあい、人生を塗り替えるピュアラブファンタジー！\n\n大加筆＆書き下ろし番外編収録！\n\n\n伯爵令嬢オリビアが転生したのは、前世の乙女ゲーム内のいじわるな姉……のはずが実は家族に虐められている一人ぼっちの少女だった。腹黒い義妹【ヒロイン】、彼女を溺愛する父と兄、そんな家族との関係構築なんて無理！　平凡平穏な生活を目指そうと決意。まず家を出るために、ヒロインを阻むラスボス公爵・レインを頼ることを思いつく。庇護を求めてゲーム知識をもとに交渉しーー逆に提案されたのは契約結婚！？　そのうえ、仮初の関係を覚悟したのに、待っていたのは思いがけず過保護であたたかい生活でーー？「さぁ、行きましょうか……僕の――最愛の人」「サ、サイアイの……ヒト？」鈍感な元意地悪姉×不器用なラスボス公爵が過去の傷を癒しあい、人生を塗り替えるピュアラブファンタジー！",
+          "synopsis": "【電子書籍限定書き下ろしSS】＆【桜花舞先生描き下ろしイラストとサイン】付き！\n「ラスボス公爵様と結婚させていただきます！」\n天然な元意地悪姉×不器用なラスボス公爵の\nピュアラブファンタジー！\n\n大加筆＆書き下ろし番外編収録！\n\n\n伯爵令嬢オリビアは、前世の乙女ゲーム設定と違う己の境遇に驚愕した。転生したのは意地悪な令嬢……のはずが、むしろ自分が家族に虐められていたのだ。腹黒い義妹【ヒロイン】、彼女を溺愛する父と兄とは、関係構築なんて無理！　平凡平穏な生活を目指そうと決意。まず家を出るために、ヒロインを阻むラスボス公爵・レインを頼ることを思いつく。庇護を求めてゲーム知識をもとに交渉し、逆提案されたのは契約結婚！？　そのうえ、仮初の関係を覚悟したのに、思いがけず過保護であたたかい生活が待っていてーー？「行きましょうか……僕の――最愛の人」「サ、サイアイの……ヒト？」天然な元意地悪姉×不器用なラスボス公爵が過去の傷を癒しあい、人生を塗り替えるピュアラブファンタジー！\n\n\n江東しろ\nA型　愛知県出身。\n連絡が遠くなっても\n友人との縁が復活したり……。\n縁が続くことがとても嬉しいなと\n最近、感じました。\n何歳になっても\n人との縁は大切にしていきたいと\nあらためて思います。\n\nイラスト：桜花舞\nラスボスヒーローを描かせていただくのがとても楽しかったです！\n素敵なお話のイラストを担当させていただきましてありがとうございました。",
           "originalPublicationDate": null,
           "saleDate": "2026-07-01",
           "staff": [
@@ -3655,10 +3888,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3677,7 +3914,7 @@
           "publisher": "TOブックス",
           "priceBeforeTax": 1272,
           "priceAfterTax": 1399,
-          "synopsis": "【電子書籍限定書き下ろしSS】付き！\n「こんなに幸せでいいのかな？」\n純真すぎる無自覚聖女の、愛されやり直しファンタジー！\n書き下ろし番外編収録！\n\n\nルーメルティーニア国を旅立ったカルロッタ。\nカジノで豪運を発揮したり、孤児院の子供たちと野菜を育てたりーー\n第二の人生を満喫していた彼女は、旅の案内人・ヴィルの故郷に向かうことにする。\n彼が第三王子であると知ったカルロッタは、成り行きで国王の茶会に招待されると、\nなぜか王妃様に気に入られた結果、彼の帰還パーティでパートナー役に任命される!?\nさらには思い付きで病気の神獣の治療にも成功。\n国の聖女様の慈善活動をお手伝いしていただけなのに、\n気づけば「女神様」と崇められるようになりーー？\n「私、聖女様でも女神様でもないのですが‥‥‥」\n純真すぎる無自覚聖女の、愛されやり直しファンタジー！",
+          "synopsis": "【電子書籍限定書き下ろしSS】付き！\n「こんなに幸せでいいのかな？」\n純真すぎる無自覚聖女の、愛されやり直しファンタジー！\n本編大幅加筆＆書き下ろし番外編収録！\n\n\nルーメルティーニア国を旅立ったカルロッタ。\nカジノで豪運を発揮したり、孤児院の子供たちと野菜を育てたりーー\n第二の人生を満喫していた彼女は、旅の案内人・ヴィルの故郷に向かうことにする。\n彼が第三王子であると知ったカルロッタは、成り行きで国王の茶会に招待されると、\nなぜか王妃様に気に入られた結果、彼の帰還パーティでパートナー役に任命される!?\nさらには思い付きで病気の神獣の治療にも成功。\n国の聖女様の慈善活動をお手伝いしていただけなのに、\n気づけば「女神様」と崇められるようになりーー？\n「私、聖女様でも女神様でもないのですが‥‥‥」\n純真すぎる無自覚聖女の、愛されやり直しファンタジー！\n\n\n著者：天冨七緒\n二巻も発売、うれしいです。\nよろしくお願いします。\n\nイラスト：昌未\n絵を描いた者です！\n前巻カバーでは意味深に控える位置にいたヴィルが前面に出てきて何より…\n中身の話をしようとすると私はネタバレだらけになるので、\nグッとくるシーンを皆様に見守っていただければ幸いです。",
           "originalPublicationDate": null,
           "saleDate": "2026-07-01",
           "staff": [
@@ -3691,10 +3928,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3727,10 +3968,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3744,12 +3989,12 @@
       "titles": [
         {
           "productUuid": "ab8ecd70-756d-4455-8bda-3ef8793a7b95",
-          "titleName": "月影に沈む覇道の行き先2～養父と養女の辺境改革～【電子書籍限定書き下ろしSS付き】",
+          "titleName": "月影に沈む覇道の行き先2　～養父と養女の辺境改革～【電子書籍限定書き下ろしSS付き】",
           "lightNovelType": "新文芸",
           "publisher": "TOブックス",
           "priceBeforeTax": 1272,
           "priceAfterTax": 1399,
-          "synopsis": "【電子書籍限定書き下ろしSS】付き！\n「娘をさらう奴はパパがゆるさん」\n愛され幼女がみんなを幸せにしちゃう、スウィートハートフルファンタジー第二弾！\n\nコミカライズ企画進行中！\n巻末書き下ろし番外編収録！\n\n\nずたぼろ領地を良くするため、新商品の開発に各地の視察にと、改革が進む辺境は大忙し。養女で幼女なトウカはできないことも多く、養父クラヴィスと過ごす時間が減ってちょっぴり寂しいけれど、信頼できる人達が増えてきてるし、みんなも生き生きしていてうれしいな。そう思っていた矢先、各地で魔物の群れが村を襲っているとの知らせが届く。急行するパパを城から見送るトウカだったが……なんとその隙に侵入した何者かにさらわれてしまった!?　娘の誘拐を聞いた瞬間、お父様の怒りが爆発し……？\n「何をしても構わん。取り戻せ」\n冷徹パパの殲滅モードはもう止められない！　愛され幼女がみんなを幸せにしちゃう、スウィートハートフルファンタジー第二弾！",
+          "synopsis": "【電子書籍限定書き下ろしSS】付き！\n「娘をさらう奴はパパがゆるさん」\n愛され幼女がみんなを幸せにしちゃう、スウィートハートフルファンタジー第二弾！\n\nコミカライズ企画進行中！\n巻末書き下ろし番外編収録！\n\n\nずたぼろ領地を良くするため、新商品の開発に各地の視察にと、改革が進む辺境は大忙し。養女で幼女なトウカはできないことも多く、養父クラヴィスと過ごす時間が減ってちょっぴり寂しいけれど、信頼できる人達が増えてきてるし、みんなも生き生きしていてうれしいな。そう思っていた矢先、各地で魔物の群れが村を襲っているとの知らせが届く。急行するパパを城から見送るトウカだったが……なんとその隙に侵入した何者かにさらわれてしまった!?　娘の誘拐を聞いた瞬間、お父様の怒りが爆発し……？\n「何をしても構わん。取り戻せ」\n冷徹パパの殲滅モードはもう止められない！　愛され幼女がみんなを幸せにしちゃう、スウィートハートフルファンタジー第二弾！\n\n\n空桜歌\nコーヒーはミルクと砂糖たっぷりじゃないと飲めない人。\nやんちゃな犬によく袖を引っ張られている。\n\nニナハチ\n1巻とはまた違った表情を描かせていただきました。\nよろしくお願いいたします！",
           "originalPublicationDate": null,
           "saleDate": "2026-07-01",
           "staff": [
@@ -3763,10 +4008,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3785,7 +4034,7 @@
           "publisher": "TOブックス",
           "priceBeforeTax": 1272,
           "priceAfterTax": 1399,
-          "synopsis": "【電子書籍限定書き下ろしSS】付き！\n「これで最後ですよ、お父様」\n捨て身の悪役才女が一族を破滅へ誘【いざな】う、痛快逆行ファンタジー第二弾！ \n書き下ろし番外編収録！\n\n\n卒業パーティーで妹を制し、王国へとたどり着いたニルヴァーナ。\n首都を目指して旅を続けていく最中、\n再会したルディルがなんと王国の第三王子と判明!?\nさらには彼の紹介で亡き母の父親であるヨシュアルト侯爵と対面。\nなぜか二人はニルヴァーナに愛情深く接してきて、\n父・カルヴァン公爵に相当な恨みを抱えているという。\n侯爵の提案で彼の養子となり、強力な後ろ盾を手にした彼女は、\n戻ってこいとしつこく迫ってくる未練がましい父親に、決別宣言を突きつける！\n「これで最後ですよ、お父様」\n捨て身の悪役才女が一族を破滅へ誘【いざな】う、痛快逆行ファンタジー第二弾！",
+          "synopsis": "【電子書籍限定書き下ろしSS】付き！\n「これでおしまいですよ、お父様」\n捨て身の悪役才女が一族を破滅へ誘【いざな】う、痛快逆行ファンタジー第二弾！ \n本編大幅加筆＆書き下ろし番外編収録！\n\n\n卒業パーティーで妹を制し、王国へとたどり着いたニルヴァーナ。\n首都を目指して旅を続けていく最中、\n再会したルディルがなんと王国の第三王子と判明!?\nさらには彼の紹介で亡き母の父親であるヨシュアルト侯爵と対面。\nなぜか二人はニルヴァーナに愛情深く接してきて、\n父・カルヴァン公爵に相当な恨みを抱えているという。\n侯爵の提案で彼の養子となり、強力な後ろ盾を手にした彼女は、\n戻ってこいとしつこく迫ってくる未練がましい父親に、決別宣言を突きつける！\n「これでおしまいですよ、お父様」\n捨て身の悪役才女が一族を破滅へ誘【いざな】う、痛快逆行ファンタジー第二弾！\n\n\n著者：天冨七緒\n二巻も発売、嬉しいです。\nよろしくお願いします。\n\nイラスト：鈴ノ助 \n黒い犬と生きるイラストレーター。\n小説の装画・挿画、ゲームイラスト、ソーシャルイラストなどで活躍中。\nこれから来る夏に怯えています。",
           "originalPublicationDate": null,
           "saleDate": "2026-07-01",
           "staff": [
@@ -3799,10 +4048,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3835,10 +4088,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3871,10 +4128,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3907,10 +4168,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3943,10 +4208,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -3979,10 +4248,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4015,11 +4288,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -4051,10 +4328,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4087,10 +4368,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4123,10 +4408,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4159,10 +4448,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4195,10 +4488,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4231,10 +4528,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4267,10 +4568,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4307,10 +4612,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4343,10 +4652,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4379,10 +4692,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4415,10 +4732,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4451,10 +4772,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4487,10 +4812,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4523,10 +4852,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4559,10 +4892,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4595,11 +4932,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -4631,10 +4972,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4667,10 +5012,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4703,10 +5052,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4739,11 +5092,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 4
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -4775,10 +5132,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4811,10 +5172,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4847,11 +5212,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -4883,10 +5252,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4919,10 +5292,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 1
             }
           ]
@@ -4955,10 +5332,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -4991,10 +5372,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5027,10 +5412,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5063,10 +5452,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5099,10 +5492,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5135,10 +5532,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5175,10 +5576,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5211,11 +5616,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -5247,10 +5656,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5283,10 +5696,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5319,11 +5736,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 3
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -5355,10 +5776,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5391,10 +5816,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5427,10 +5856,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5463,10 +5896,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5499,10 +5936,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5535,10 +5976,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5571,10 +6016,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5607,11 +6056,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 4
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 2
             }
           ]
         }
@@ -5643,10 +6096,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5679,10 +6136,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5715,10 +6176,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5751,11 +6216,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -5787,10 +6256,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5823,10 +6296,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5855,10 +6332,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5878,7 +6359,7 @@
           "priceBeforeTax": 800,
           "priceAfterTax": 880,
           "synopsis": "奴隷として虐げられていた少年は、鉱山崩壊の混乱の中で伝説を超える星10【森羅万象（ワールド・ルーラー）】通常の2倍（16枠）ものスキル枠を持つ規格外の存在として覚醒。\n地獄の鉱山を脱出した少年は、呪いに苦しむ戦士ダンテス率いる冒険者パーティー「銀の天秤」と出会う。圧倒的な解析能力を武器に少年は大切な仲間たちを救うため、そして生き別れた「姉」ラルクとの再会を誓い、過酷な運命へと立ち向かっていきます。\n\n奪われるばかりだった少年が、自らの手で未来を掴み取っていく、限界突破のファンタジー。",
-          "originalPublicationDate": null,
+          "originalPublicationDate": "2026-07-24",
           "saleDate": "2026-07-24",
           "staff": [
             {
@@ -5895,10 +6376,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5931,10 +6416,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -5967,10 +6456,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6003,10 +6496,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6039,10 +6536,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6075,10 +6576,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6111,10 +6616,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6147,10 +6656,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6187,10 +6700,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6227,10 +6744,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6263,10 +6784,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6299,10 +6824,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6335,10 +6864,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6371,10 +6904,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6407,10 +6944,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6443,10 +6984,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6475,10 +7020,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6511,10 +7060,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6547,10 +7100,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6583,10 +7140,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6619,10 +7180,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6655,10 +7220,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6691,10 +7260,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6727,10 +7300,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6763,11 +7340,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -6799,10 +7380,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6835,10 +7420,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6871,10 +7460,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6907,11 +7500,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -6943,10 +7540,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -6979,10 +7580,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7015,10 +7620,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7051,10 +7660,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7087,11 +7700,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 3
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -7123,11 +7740,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 9
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -7159,11 +7780,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 8
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
             }
           ]
         }
@@ -7195,11 +7820,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 5
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -7231,11 +7860,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 30
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 2
             }
           ]
         }
@@ -7267,11 +7900,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -7303,10 +7940,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7339,11 +7980,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -7375,10 +8020,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7407,10 +8056,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7443,10 +8096,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7479,10 +8136,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7515,10 +8176,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7555,11 +8220,15 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
             }
           ]
         }
@@ -7599,10 +8268,14 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
@@ -7635,10 +8308,1252 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-06-24",
+          "lastSeenOnScheduleDate": "2026-06-27",
           "reservationHistory": [
             {
               "date": "2026-06-24",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607412",
+      "seriesName": "数合わせの最下妃ですが、竜帝の世継ぎを授かりました",
+      "label": "スターツ出版文庫",
+      "titles": [
+        {
+          "productUuid": "051a3b8b-2691-48f0-94eb-8ee3abc5f8bb",
+          "titleName": "数合わせの最下妃ですが、竜帝の世継ぎを授かりました",
+          "lightNovelType": "ラノベ",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 690,
+          "priceAfterTax": 759,
+          "synopsis": "玉蘭は元平民で、後宮入りした最下位の妃候補。後宮内で虐げられていたが、何故か美麗の皇帝・皓月のお渡りがあり、子を身籠ってしまう。唯一の味方である妃候補・揚揚に相談すると、身の安全のため、しばらく懐妊したことは黙っているよう勧められ、\nその通りにしていたが…。揚揚は玉蘭を裏切り、偽装懐妊で皓月の気を引こうとして!?　さらには、揚揚に殺人未遂の濡れ衣まで着せられてしまう玉蘭。絶体絶命のピンチの中、皓月だけは一途に玉蘭を愛し、全てをかけて守ってくれて――。後宮大逆転シンデレラストーリー。",
+          "originalPublicationDate": "2026-06-28",
+          "saleDate": "2026-06-28",
+          "staff": [
+            {
+              "name": "時岡継美",
+              "role": "著"
+            },
+            {
+              "name": "御子柴リョウ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607410",
+      "seriesName": "捨てられ令嬢と闇の軍神の甘い契約",
+      "label": "スターツ出版文庫",
+      "titles": [
+        {
+          "productUuid": "261ee006-d07c-4717-8285-4e28c1b42b92",
+          "titleName": "捨てられ令嬢と闇の軍神の甘い契約",
+          "lightNovelType": "ラノベ",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 720,
+          "priceAfterTax": 792,
+          "synopsis": "国の災いを占ってきた名家の分家・桜木家に生まれた志乃は忌み嫌われる能力を持ち、「化け物」と虐げられていた。17歳になったある日、妖魔が住む森に捨てられてしまい襲われているところを、星を閉じ込めたような瞳が美しい最強の軍神・篝に救われる。「俺がお前を拾ってやる」と屋敷に連れ帰られた志乃は居場所を見つけていく中で隠れた能力を引き出される。能力を利用されるだけと思っていたのに「一生離すつもりはないから、覚悟しておけよ？」と、なぜか篝に愛を注がれ――!?　契約から始まる和風シンデレラ物語！",
+          "originalPublicationDate": "2026-06-28",
+          "saleDate": "2026-06-28",
+          "staff": [
+            {
+              "name": "蓮水　涼",
+              "role": "著"
+            },
+            {
+              "name": "mokoppe",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607409",
+      "seriesName": "成仏するまで憑きあって",
+      "label": "スターツ出版文庫",
+      "titles": [
+        {
+          "productUuid": "31800e67-d2aa-4e53-ad16-adb86cfcf10a",
+          "titleName": "成仏するまで憑きあって",
+          "lightNovelType": "ラノベ",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 700,
+          "priceAfterTax": 770,
+          "synopsis": "「成仏するために、俺の青春に付き合って！」本当は心優しいのに、見た目が怖すぎて誤解されがちな紫苑。人と深く関わらず平穏に学校生活を送るはずが、突然現れたのは、我が道を行く超ポジティブ幽霊・千歳だった。唯一その姿が見える紫苑は、千歳から勝手に友達認定されて…。最初は渋々付き合っていた紫苑。しかし、遺された時間を全力で楽しみ、自分が幽霊であることなんて気にしない千歳の姿に感化されていき――。紫苑の退屈だった日常が色づいていく。しかし、また同時に別れの時も近づいていて…。",
+          "originalPublicationDate": "2026-06-28",
+          "saleDate": "2026-06-28",
+          "staff": [
+            {
+              "name": "茉白いと",
+              "role": "著"
+            },
+            {
+              "name": "きりうみ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "549756",
+      "seriesName": "氷の花嫁",
+      "label": "スターツ出版文庫",
+      "titles": [
+        {
+          "productUuid": "a2406c98-2852-4c9d-9328-f0bae18e4a79",
+          "titleName": "氷の花嫁２～笑顔を失った能面少女は永遠の愛を誓われる～",
+          "lightNovelType": "ラノベ",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 740,
+          "priceAfterTax": 814,
+          "synopsis": "夜刀と婚約し笑顔を取り戻した紗良。彼の出張に同行し翡翠沢を訪れるが、夜刀の元見合い相手に蔑まれ、己の無力さに思い悩むことに。さらに、翡翠沢を支配する岩永の罠により、妖魔が巣食う禍山へと誘拐されてしまう。絶体絶命の危機の中、紗良は自身に宿るもう一つの加護「治癒の力」と守布で奇跡を起こす。駆けつけた夜刀に救い出され、絆を深める二人。やがて紗良の出生の秘密も明らかになり――？　「君を愛してる」数々の試練を乗り越えた少女と最強軍神は、指輪を交わし永遠の愛を誓い合う。",
+          "originalPublicationDate": "2026-06-28",
+          "saleDate": "2026-06-28",
+          "staff": [
+            {
+              "name": "シアノ",
+              "role": "著"
+            },
+            {
+              "name": "水野かがり",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607406",
+      "seriesName": "君が遺した命の歌が、遥か遠くへ咲きますように",
+      "label": "スターツ出版文庫",
+      "titles": [
+        {
+          "productUuid": "e92badc5-0801-46a4-b32b-2e5d4ceaa92c",
+          "titleName": "君が遺した命の歌が、遥か遠くへ咲きますように",
+          "lightNovelType": "ラノベ",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 710,
+          "priceAfterTax": 781,
+          "synopsis": "高校生のハルトは夢と親友を失い、夜の公園に一人でいた。すると、夜空に真っ白な花火が上がり、同時に近くから少女の悲鳴が聞こえる。そこで出会ったのは、1945年からタイムスリップしてきた、目の見えない少女サキだった。戦時中を生きるサキが現代に来た理由を探るうちに二人の距離は近づいていく。つらい境遇にあっても明るく懸命に生きるサキと過ごす日々の中で、ハルトは忘れていた“生きること”への想いを取り戻していくが……。ラスト、ふたりを繋いだ想いの意味が、長岡まつり大花火大会の夜に明かされる――。",
+          "originalPublicationDate": "2026-06-28",
+          "saleDate": "2026-06-28",
+          "staff": [
+            {
+              "name": "青海野　灰",
+              "role": "著"
+            },
+            {
+              "name": "ふすい",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "477406",
+      "seriesName": "あの花が咲く丘で、君とまた出会えたら。Another",
+      "label": "スターツ出版文庫",
+      "titles": [
+        {
+          "productUuid": "f86b1f37-2867-4887-9e4e-c2a1031181ba",
+          "titleName": "あの花が咲く丘で、君とまた出会えたら。Another",
+          "lightNovelType": "ラノベ",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 710,
+          "priceAfterTax": 781,
+          "synopsis": "「もし、生まれかわれるなら――今度こそ、君の側にいよう」白昼夢－佐久間彰。「あなたと出会ったことで、私は変わった。あなたの想いが、私を変えたんだ」水鉄砲－加納百合。「千代ちゃん、どうか幸せになってくれ。君は絶対に幸せになる」三日月－石丸智志 。「いつかまた必ずお会いできると信じて、ずうっと待っていたの。もう一度あなたに会える日を…」夏の空－中嶋千代。他、全11篇、『あの花が咲く丘で、君とまた出会えたら。』の”その後”が読める珠玉の短編集。それぞれの物語に号泣！",
+          "originalPublicationDate": "2026-06-28",
+          "saleDate": "2026-06-28",
+          "staff": [
+            {
+              "name": "汐見夏衛",
+              "role": "著"
+            },
+            {
+              "name": "ふすい",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "470083",
+      "seriesName": "殺されたくなくて悪役な婚約者を愛でていたら、なぜか溺愛されました",
+      "label": "エンジェライト文庫",
+      "titles": [
+        {
+          "productUuid": "671deb86-a851-4a0b-884b-c13f1b29b0d3",
+          "titleName": "殺されたくなくて悪役な婚約者を愛でていたら、なぜか溺愛されました2",
+          "lightNovelType": "ラノベ",
+          "publisher": "パルプライド",
+          "priceBeforeTax": 800,
+          "priceAfterTax": 880,
+          "synopsis": "婚約者のサディアスに殺された一周目の記憶を持つディアナは、三周目の今は彼を愛でて殺害フラグを回避し、逆にヤンデレ気味に激しく溺愛される日々を送っていた。\nしかし、ある日ディアナはサディアスを狙う隣国の王女に記憶を書き換えられ……「一周目」の人格に戻ってしまう！\n記憶を失ったディアナに激しく拒絶されても彼女を愛し、記憶を取り戻すため奔走するサディアス。\n果たして、ディアナは記憶を取り戻すことができるのか……すれ違う二人の切ない恋の行方へは。\n大人気異世界溺愛ファンタジー第2弾！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-06-28",
+          "staff": [
+            {
+              "name": "水谷繭",
+              "role": "著"
+            },
+            {
+              "name": "ＲＡＨＷＩＡ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607405",
+      "seriesName": "この度、ご懐妊いたしました",
+      "label": "スターツ出版文庫単行本",
+      "titles": [
+        {
+          "productUuid": "3cabae17-f9f8-4486-b881-61bb95898b4c",
+          "titleName": "この度、ご懐妊いたしました",
+          "lightNovelType": "ラノベ",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1500,
+          "priceAfterTax": 1650,
+          "synopsis": "完璧な夫、愛らしい子供、絵に描いたようなマイホーム…\n完璧に見えたそれらはすべて虚像だった\nどうか彼らを見つけても関わらないでください",
+          "originalPublicationDate": "2026-06-28",
+          "saleDate": "2026-06-28",
+          "staff": [
+            {
+              "name": "西羽咲花月",
+              "role": "著"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607404",
+      "seriesName": "おみおくり食堂で最後のお別れを",
+      "label": "スターツ出版文庫単行本",
+      "titles": [
+        {
+          "productUuid": "726582a9-2dc8-4cc6-bd21-713dcf8aa347",
+          "titleName": "おみおくり食堂で最後のお別れを",
+          "lightNovelType": "ラノベ",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1500,
+          "priceAfterTax": 1650,
+          "synopsis": "天国に一番近い飲食店――おみおくり食堂。後悔を抱えて、迷子になった死者だけが訪れる場所。この店に来た人間は、少しだけ生きていた時間に戻ることができる。ルールは三つ。『一、戻れるのは最後の食事時間』『二、どんなことをしても死ぬ運命は変えられない』『三、自分が死ぬことを生者に伝えてはならない』最後の食事を終えたら、死者は再びこの店に帰ってくる。胸に抱えた後悔を手放して――。「さあ召し上がれ」長いしっぽの料理長は、今日もお客が来るのを待っている。おいしくて、切なくて、幸せな、最後の一皿を味わってもらうために。",
+          "originalPublicationDate": "2026-06-28",
+          "saleDate": "2026-06-28",
+          "staff": [
+            {
+              "name": "水瀬さら",
+              "role": "著"
+            },
+            {
+              "name": "いとうあつき",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "608188",
+      "seriesName": "３才児ですが可愛い花嫁がやってきた！と溺愛されてます。しかし私は敵国の最強魔法帝です",
+      "label": "フェアリーキス",
+      "titles": [
+        {
+          "productUuid": "93744214-4630-4a5d-b30e-e5614dc9cb02",
+          "titleName": "３才児ですが可愛い花嫁がやってきた！と溺愛されてます。しかし私は敵国の最強魔法帝です【特典SS付】【イラスト付】【電子限定描き下ろしイラスト＆著者直筆コメント入り】",
+          "lightNovelType": "新文芸",
+          "publisher": "ジュリアンパブリッシング",
+          "priceBeforeTax": 1500,
+          "priceAfterTax": 1650,
+          "synopsis": "緊張関係にある２国、起死回生を狙って伝説の聖獣を召喚しようといにしえの魔法で呼び出したら、なんと敵国の最強魔法帝レティシアを喚び出してしまった。召喚によって魔力を吸収されて、見た目３才児…。魔力もゼロ。当然まさか敵国の首領だとは気付かず。「えっと…お嬢ちゃん、いくつかな…？」\nそうしてなぜか冷血将軍ロイドの花嫁になることに。（おのれ、ふとどきものめ、まりょくがかいふくしたら、ほろぼしてやる）……と思っていたが、ロイドの屋敷は可愛い嫁が来たと大歓迎。溺愛されて腕枕で惰眠をむさぼる三食お昼寝付きの快適な日々。しかしある日突然もとの大人姿に戻ってしまい…!?\n\n※こちらの作品は通常版とサイン版がございます。本編の内容は同一ですので重複購入にご注意ください。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-06-29",
+          "staff": [
+            {
+              "name": "六花　きい",
+              "role": "著"
+            },
+            {
+              "name": "桜花舞",
+              "role": "イラストレーター"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "standalone-5a9a979c-afa7-4e62-aeba-11ce68682274",
+      "seriesName": "",
+      "label": null,
+      "titles": [
+        {
+          "productUuid": "5a9a979c-afa7-4e62-aeba-11ce68682274",
+          "titleName": "",
+          "lightNovelType": "新文芸",
+          "publisher": null,
+          "priceBeforeTax": null,
+          "priceAfterTax": null,
+          "synopsis": null,
+          "originalPublicationDate": null,
+          "saleDate": null,
+          "staff": [],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "171575",
+      "seriesName": "「嘆きの亡霊は引退したい ～最弱ハンターによる最強パーティ育成術～」シリーズ",
+      "label": "GCノベルズ",
+      "titles": [
+        {
+          "productUuid": "491c474f-22d4-4262-9b9c-3a8d34885edb",
+          "titleName": "嘆きの亡霊は引退したい ～最弱ハンターによる最強パーティ育成術～ 14【BOOK☆WALKER限定オリジナルSS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "マイクロマガジン社",
+          "priceBeforeTax": 1200,
+          "priceAfterTax": 1320,
+          "synopsis": "その男――稀代の英雄か、 それともただの人か。ついうっかり帝都ゼブルディアと宝物殿【星神の神殿】を融合させてしまったクライ。（ついに）逮捕されてしまった彼は脱獄不能と言われるイーストシール監獄島へと送られてしまう――のだが、そこに収監されているのはかつて《嘆きの亡霊》と敵対した犯罪組織・秘密結社の構成員たちで……？ 右も左も凶悪犯だらけの刑務所へ単身乗り込むクライは果たして無事出所することが出来るのか？",
+          "originalPublicationDate": "2026-07-06",
+          "saleDate": "2026-06-30",
+          "staff": [
+            {
+              "name": "槻影",
+              "role": "小説"
+            },
+            {
+              "name": "チーコ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607375",
+      "seriesName": "「ようこそ最前線の地獄（職場）へ 軍師リナ、8歳です」シリーズ",
+      "label": "GCノベルズ",
+      "titles": [
+        {
+          "productUuid": "72dbaebb-c0cf-40f1-bd7f-449634f1b7e2",
+          "titleName": "ようこそ最前線の地獄（職場）へ 軍師リナ、8歳です 1【BOOK☆WALKER限定オリジナルSS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "マイクロマガジン社",
+          "priceBeforeTax": 1300,
+          "priceAfterTax": 1430,
+          "synopsis": "「小説家になろう」四半期総合ランキング１位！\n【謎の軍師】に仕立てられた８歳の少女が、『多言語理解』と前世知識で戦場のあらゆる常識を覆す！アルカディア王国との長きにおよぶ戦争により、ガレリア帝国は陥落寸前まで追い込まれていた。過酷極まる戦場、その地獄のような最前線に幼い絶叫が響き渡る。\n\n「話が違う話が違う話が違うじゃないですかぁぁ！！！！」\n\n　声の主は、物心つく前から過ごした孤児院を救うため軍に志願した一人の少女。\n　名前はリナ、年齢８歳。剣も魔法も使えない。あるのは地味スキル『多言語理解』と、ブラック企業での激務＆戦略シミュレーションゲームに明け暮れた前世の記憶のみ！\n「安全な司令部で高待遇のデスクワーク」を約束されたはずなのに、戦場のど真ん中で【謎の軍師】に仕立てられたリナ。その小さな手の采配が常識をことごとく覆し戦局を一変させることをまだ誰も知らなかった。もちろん彼女自身も――。\n　なお本人は、何よりも甘いケーキを切実に所望しているもよう。",
+          "originalPublicationDate": "2026-07-06",
+          "saleDate": "2026-06-30",
+          "staff": [
+            {
+              "name": "輝夜",
+              "role": "小説"
+            },
+            {
+              "name": "コダマ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607377",
+      "seriesName": "「灰色の勇者は人外道を歩み続ける」シリーズ",
+      "label": "GCノベルズ",
+      "titles": [
+        {
+          "productUuid": "8a917e9a-2c8d-48ff-85b0-bf94b5e0bc5f",
+          "titleName": "灰色の勇者は人外道を歩み続ける 1",
+          "lightNovelType": "新文芸",
+          "publisher": "マイクロマガジン社",
+          "priceBeforeTax": 1300,
+          "priceAfterTax": 1430,
+          "synopsis": "慈悲も救済もない地で青年は、\n人智を外れる――『終焉の大陸』――勇者や魔王すらも近づかないといわれる人外魔境の地。\n灰色の勇者として異世界に勇者召喚された日本人、灰羽秋はスキル選択に時間をかけすぎてしまいその地へと誤転移してしまう。\n\n全く雑魚とは思えない屈強なゴブリンの集団。\n常に争いをしている異常に高LVな魔物達。\nめまぐるしく変わる生きるに相応しくない環境。\n\n厳しすぎるその大陸で秋は、『終焉の大陸』に染まるかのように人外への道を歩みだす。",
+          "originalPublicationDate": "2026-07-06",
+          "saleDate": "2026-06-30",
+          "staff": [
+            {
+              "name": "六羽海千悠",
+              "role": "小説"
+            },
+            {
+              "name": "ｄａｉｃｈｉ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607376",
+      "seriesName": "「傾国の悪女になんかなりません! ～蛮族令嬢クリスティナは予言された破滅フラグを【カンスト】パワーでへし折ります～」シリーズ",
+      "label": "GCノベルズ",
+      "titles": [
+        {
+          "productUuid": "9de73b35-31d4-46da-83f9-20bdb5557168",
+          "titleName": "傾国の悪女になんかなりません! ～蛮族令嬢クリスティナは予言された破滅フラグを【カンスト】パワーでへし折ります～ 1",
+          "lightNovelType": "新文芸",
+          "publisher": "マイクロマガジン社",
+          "priceBeforeTax": 1200,
+          "priceAfterTax": 1320,
+          "synopsis": "神から授かった天与は怪力！？\n攻撃力『カンスト』令嬢の大逆転劇ファンタジー、開幕！三女神の一柱から授かった【天与】で怪力を得てしまったクリスティナ。突如、異世界から来たという聖女が持つ『オトメゲム』の予言書により、いずれ王国を脅かす『傾国の悪女』になると告げられる。根拠のない予言を信じた婚約者である王太子レヴァンからは婚約破棄、さらには国外追放を求められる始末。根も葉もない未来を押し付けられたクリスティナは納得できるはずもなく、圧倒的な怪力でレヴァンたちを殴り倒してしまい……！？",
+          "originalPublicationDate": "2026-07-06",
+          "saleDate": "2026-06-30",
+          "staff": [
+            {
+              "name": "川崎悠",
+              "role": "小説"
+            },
+            {
+              "name": "双葉はづき",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "608546",
+      "seriesName": "群青",
+      "label": "――",
+      "titles": [
+        {
+          "productUuid": "514fe08c-19ef-4fd5-8930-d9cb43522ec6",
+          "titleName": "群青",
+          "lightNovelType": "新文芸",
+          "publisher": "幻冬舎メディアコンサルティング",
+          "priceBeforeTax": 1200,
+          "priceAfterTax": 1320,
+          "synopsis": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。\n\n画風はひとつじゃなくていい。\n描きたい瞬間を集めた、まっすぐな画集。\n\n淡い夜景から、ファンタジー、少女、動物、兵士シリーズまで――\n統一されたテーマではなく、その時々の気分と衝動に導かれて描かれたイラストの数々。\n子どもの頃から抱いていた「絵を描く夢」を、もう一度手にした著者が、何年もかけて積み重ねた表現の記録。\n\n著者プロフィール\n2025年現在59歳。介護士をしながらイラストレーションを制作している。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-06-30",
+          "staff": [
+            {
+              "name": "海野屋敷丸",
+              "role": "著"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "53711",
+      "seriesName": "精霊幻想記",
+      "label": "ＨＪ文庫",
+      "titles": [
+        {
+          "productUuid": "d0f6e220-e140-4d07-b148-c89deea73cce",
+          "titleName": "精霊幻想記　外伝 アマカワ卿の食卓",
+          "lightNovelType": "ラノベ",
+          "publisher": "ホビージャパン",
+          "priceBeforeTax": 720,
+          "priceAfterTax": 792,
+          "synopsis": "ガルアーク王国の名誉騎士ハルト＝アマカワ卿にはあまり知られていない特技がある。それは……料理がとても上手なこと！\n王城内に屋敷を構える彼は、今日も同居人である少女たちのために惜しみなくその腕をふるう。この世界で定番の洋食に日本人心をくすぐる和食、可愛いデザートからお洒落なドリンクまで。\n時には共に台所へ立ち、かけがえのない日々を紡いでいく――。\n「精霊幻想記公式ファンクラブ」にて連載した全１２話を完全収録＆ここでしか読めない書き下ろしも加えた外伝、ご賞味あれ！",
+          "originalPublicationDate": "2026-07-01",
+          "saleDate": "2026-07-01",
+          "staff": [
+            {
+              "name": "北山結莉",
+              "role": "著"
+            },
+            {
+              "name": "油布京子・Riv",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "608306",
+      "seriesName": "地味な私が転生したら、王太子妃の取り柄のない妹でした",
+      "label": "アイリスNEO",
+      "titles": [
+        {
+          "productUuid": "629c7b9b-7f00-4be5-8fba-10fbfc47cf06",
+          "titleName": "地味な私が転生したら、王太子妃の取り柄のない妹でした～幼なじみ公爵令息に溺愛されつつ、私なりの居場所を探します～【特典SS付】",
+          "lightNovelType": "新文芸",
+          "publisher": "一迅社",
+          "priceBeforeTax": 1300,
+          "priceAfterTax": 1430,
+          "synopsis": "地味な侯爵家次女として転生したアンジェは、美形ぞろいの家族に愛されながらも、姉や兄のような華やかさもなく、自分だけ地味な令嬢だと思っていた。目立った才能もなく、使えるのは火と水の基礎魔法だけ。それでも前世の知識と魔法を組み合わせて石鹸やポーションなどを作り出し、周囲の役に立っていく。王太子妃となった姉ローズの支えになりたい――その思いを胸に、店の経営をしながら自立を目指していたのだけれど……。過保護な幼なじみの公爵令息ルークが、妻にしたいと何かとアンジェを溺愛してきて!?　不器用な幼なじみに迫られる令嬢のものつくり×溺愛ファンタジー♡　※電子版はショートストーリー『マリアを尾行』付。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-02",
+          "staff": [
+            {
+              "name": "ｉｒｕ",
+              "role": "著者"
+            },
+            {
+              "name": "みまさか",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "608305",
+      "seriesName": "二人の公爵令嬢　どうやら愛されるのはひとりだけのようです",
+      "label": "アイリスNEO",
+      "titles": [
+        {
+          "productUuid": "64761861-6ac2-4f1d-b34a-d5668e8210a0",
+          "titleName": "二人の公爵令嬢　どうやら愛されるのはひとりだけのようです【特典SS付】",
+          "lightNovelType": "新文芸",
+          "publisher": "一迅社",
+          "priceBeforeTax": 1300,
+          "priceAfterTax": 1430,
+          "synopsis": "魔法士の適性があった孤児リディアはある日、自分が公爵家の令嬢だと知り、温かく迎えてくれた家族に喜んだものの……。リディアの代わりに引き取られ、家族に愛されている義妹・シャロンの横で、いつまで経っても客人のままの自分に苦しむことに。そこでリディアは、家を出て魔法士として生きることを決意！　ところが、恋い慕っている魔法士ルークライがいるのに、義妹から婚約者を押し付けられそうになってしまって!?　さらにルークライを手に入れたい王女の魔の手が忍び寄り――。運命に翻弄されながら、自分らしく生きるために奮闘する令嬢の王宮ラブファンタジーが書籍化！　※電子版はショートストーリー『朝チュン……？』付。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-02",
+          "staff": [
+            {
+              "name": "矢野りと",
+              "role": "著者"
+            },
+            {
+              "name": "春野薫久",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "491973",
+      "seriesName": "裏庭のドア、異世界に繋がる",
+      "label": "サーガフォレスト",
+      "titles": [
+        {
+          "productUuid": "1bc15baf-3346-4197-8d70-43cb5d64562c",
+          "titleName": "裏庭のドア、異世界に繋がる～異世界で趣味だった料理を仕事にしてみます～（サーガフォレスト）【合本版】",
+          "lightNovelType": "新文芸",
+          "publisher": "一二三書房",
+          "priceBeforeTax": 3600,
+          "priceAfterTax": 3960,
+          "synopsis": "──喫茶エニシへようこそ\n\n自信を失い仕事を辞めた恵真は、ある日祖母の家の管理と愛猫クロの世話を任された。\n祖母の留守の間、きちんと家を守ろうと意気込む恵真の元に、裏庭のドアから可愛い兄弟が現われる。\n物珍しそうに恵真と家を見る二人。\nそれもそのはず、なんと裏庭のドアの先には見たこともない世界に繋がっていたのだ……！\n\nある出来事をきっかけに異世界で喫茶店をはじめた恵真。\n彼女は美味しいごはんと不思議な縁によって少しずつ自信を取り戻していき……。\n\n裏庭のドアから始まる一人と一匹の心温まる異世界交流譚──。\n\n※本作品は、サーガフォレスト『裏庭のドア、異世界に繋がる～異世界で趣味だった料理を仕事にしてみます～』1巻～3巻を収録しています。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-03",
+          "staff": [
+            {
+              "name": "芽生",
+              "role": "著者"
+            },
+            {
+              "name": "花守",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607411",
+      "seriesName": "捨てられ才女はどうやら繁栄の切り札だったようです～新生活を謳歌していたら、記憶チートで追放先が大発展していました～",
+      "label": "ベリーズファンタジー",
+      "titles": [
+        {
+          "productUuid": "35db984c-d47a-4400-9d87-cc6702c0f4d8",
+          "titleName": "捨てられ才女はどうやら繁栄の切り札だったようです～新生活を謳歌していたら、記憶チートで追放先が大発展していました～【電子限定SS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1400,
+          "priceAfterTax": 1540,
+          "synopsis": "一度見たものは決して忘れない――完全記憶力を持つ大陸一賢い王妃・コーデリア。遊び三昧の国王ディルダに代わり、日々必死で公務をこなしていた。そんな中「かわいげがない」と突然、側妃へ降格。荒廃した辺境へ追放されるが…そこで夢にまで見た自由な生活をスタート！　豊富な知識と記憶力をのびのび使っていたら希少な鉱脈を発見。大国からも交易を持ちかけられ、気づけば国家最強の領地に大発展！　一方、王宮は外交も内政も立ち行かず大混乱。慌てて彼女を取り戻そうとするが、大国さえも味方につけた大領主・コーデリアを思い通りにできるはずもなく…。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-05",
+          "staff": [
+            {
+              "name": "りょうとかえ",
+              "role": "著"
+            },
+            {
+              "name": "真久",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607407",
+      "seriesName": "廃屋の転生幼女は冷酷宰相の愛娘になりました～魔力ゼロだったけど、公爵家でチートが開花しました～",
+      "label": "ベリーズファンタジー",
+      "titles": [
+        {
+          "productUuid": "7e96df87-1a39-4bd9-ab66-0196209e3fbb",
+          "titleName": "廃屋の転生幼女は冷酷宰相の愛娘になりました～魔力ゼロだったけど、公爵家でチートが開花しました～【電子限定SS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1400,
+          "priceAfterTax": 1540,
+          "synopsis": "前世日本人だった記憶がある公爵家の長女ライラ（5歳）。魔力なしの役立たずと虐げられていたが、ある日戦争から帰還した父アルフレッドに助け出されて人生が一変！　「氷の宰相」と恐れられている強面お父さまともっと仲良くなりたいライラは、多忙な彼のお手伝いをすることに。実はチートな動物の声が聞こえる能力で、庶民的な果実を使って美味しいデザートの特産品を開発したり、教会の闇を暴いたりといつのまにか大活躍!?　冷たかったはずのアルフレッドも、ひたむきで愛らしいライラを気付けば溺愛していて…？　ちびっこ公女の愛されファンタジー！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-05",
+          "staff": [
+            {
+              "name": "玉響なつめ",
+              "role": "著"
+            },
+            {
+              "name": "凪かすみ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607413",
+      "seriesName": "望まれない王妃ですので。～人質にされた敗戦国の王妃ですが、どうやら敵国は私の味方のようです～",
+      "label": "ベリーズファンタジー",
+      "titles": [
+        {
+          "productUuid": "7f57c6c7-5736-4764-95d6-d40fce505c60",
+          "titleName": "望まれない王妃ですので。～人質にされた敗戦国の王妃ですが、どうやら敵国は私の味方のようです～【電子限定SS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1400,
+          "priceAfterTax": 1540,
+          "synopsis": "敗戦国となった母国のために人質として隣国に送られた王妃ジュンリヤ。三年間の幽閉生活の末帰国したジュンリヤを待っていたのは夫の国王…と、その隣で微笑む側妃だった。ようやく母国に戻ってきたはずが、そこにジュンリヤの居場所はなく、さらにはあらぬ噂を立てられ孤立無援の状況に。しかし隣国での人質生活を経てジュンリヤには最強の味方がついていた！　彼らの協力を得たジュンリヤは王妃としての信念で、王の器ではなかった国王らの後ろ暗い真実を明らかにしていき――!?　居場所を奪われたお飾り王妃が幸せを掴む大逆転ファンタジー！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-05",
+          "staff": [
+            {
+              "name": "矢野りと",
+              "role": "著"
+            },
+            {
+              "name": "冬海煌",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607408",
+      "seriesName": "役立たずの姉は用済みのようなので、平穏を目指して趣味に生きます～土いじり令嬢、隣国の王族に才能を買われて大歓迎されました～",
+      "label": "ベリーズファンタジー",
+      "titles": [
+        {
+          "productUuid": "99f79432-4a13-4ca5-af51-310a5b78ff8f",
+          "titleName": "役立たずの姉は用済みのようなので、平穏を目指して趣味に生きます～土いじり令嬢、隣国の王族に才能を買われて大歓迎されました～ 【電子限定SS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1400,
+          "priceAfterTax": 1540,
+          "synopsis": "「お前は草の世話しかできない能無しだ」――妹贔屓の両親から虐げられ、国を挙げたハーブ事業の手柄を婚約者に横取りされてきた侯爵令嬢エレイン。事業が軌道に乗り婚約者から用済みと捨てられることになるが…自由を手にした彼女の心は羽のように軽かった！　才能を隣国王子に見初められ、エレインは彼のもとでその力を惜しみなく発揮！　特別な効能を秘めるエレインのハーブは引く手あまたで、人々に支持され彼女は自分の居場所を見つけていく。一方祖国の家族らは、エレインがいなくなったことで事業が傾き、彼女の稀有な能力に気づき始めて…？",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-05",
+          "staff": [
+            {
+              "name": "紀本明",
+              "role": "著"
+            },
+            {
+              "name": "ＲＡＨＷＩＡ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607417",
+      "seriesName": "顔も知らない婚約者様の御子を一夜で授かりまして",
+      "label": "ベリーズファンタジー",
+      "titles": [
+        {
+          "productUuid": "a5b58f27-1099-458e-b241-0344c9e70cb0",
+          "titleName": "顔も知らない婚約者様の御子を一夜で授かりまして【電子限定SS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1400,
+          "priceAfterTax": 1540,
+          "synopsis": "幼少期から完璧であれと育てられてきた侯爵令嬢・カティアは、素性を一切明かさず引きこもる王太子と望まぬ結婚を控えていた。息苦しい日々を送る中で、ある日自身と似た境遇の青年・セオと出会う。思わぬ展開で一夜をともにしてしまい…良心の呵責から家を出るも、その後妊娠が発覚！　遠く離れた街で平民として、子と慎ましくも穏やかに暮らしていた。それから四年、偶然再会したセオは国王となっており、かつての政略結婚の相手だったと判明し…!?　互いを知らぬまま別れた二人が再び出会い、すれ違いながらも愛を紡ぐ極上シークレットベビー！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-05",
+          "staff": [
+            {
+              "name": "浅岸 久",
+              "role": "著"
+            },
+            {
+              "name": "天領寺セナ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607416",
+      "seriesName": "追放された元妃は多くを望まない～とある才女が残した最高の置き土産～",
+      "label": "ベリーズファンタジー",
+      "titles": [
+        {
+          "productUuid": "a6e292e3-8c8a-460e-9e91-306c9a7c499c",
+          "titleName": "追放された元妃は多くを望まない～とある才女が残した最高の置き土産～【電子限定SS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1400,
+          "priceAfterTax": 1540,
+          "synopsis": "「今日限りで妃の位を剥奪する!!」――寵愛する妃を虐げたとの濡れ衣で、国王に突然、後宮追放を宣言された侯爵令嬢・シャーロット。もともと不本意な後宮入りだったシャーロットは動じることなくその場を去る。しがらみから解き放たれたシャーロットは、世界を巡り商人として成功をおさめ、自由な日々を大満喫！　一方、シャーロットが去った後宮は、平穏な日々が戻ったと思ったが…「素敵な贈り物《嫌がらせ》をいただいたからには、きっちり御礼しないとね？」――実は、シャーロットは追放される前に後宮内にとある仕掛けを残していた。それにより、わずかに保たれていた後宮の均衡は崩れ始め…!?",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-05",
+          "staff": [
+            {
+              "name": "つくも茄子",
+              "role": "著"
+            },
+            {
+              "name": "御子柴リョウ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607414",
+      "seriesName": "物置小屋令嬢、気づけば最高位の貴族になっていました～家族に厄介払いで嫁がされた先で、楽しく物づくりした結果～",
+      "label": "ベリーズファンタジー",
+      "titles": [
+        {
+          "productUuid": "b3ca715d-f561-44e7-9930-9733aefdac2a",
+          "titleName": "物置小屋令嬢、気づけば最高位の貴族になっていました～家族に厄介払いで嫁がされた先で、楽しく物づくりした結果～【電子限定SS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1400,
+          "priceAfterTax": 1540,
+          "synopsis": "強い魔力を誇る名家の次女・ソフィーナ。幼い頃、魔力ほぼゼロと判定され「恥さらし」と物置小屋に閉じ込められて育った。17歳になると、厄介払いのため“落ちこぼれ”男爵令息に嫁がされるが――実は将来に備えコツコツ魔力を鍛えていたソフィーナは大喜び！　さらに令息は予想外にも紳士で、夢に見た楽しい生活がスタート。ある日、彼が開発中の道具に何気なく魔力を使ってみると、生活を劇的に改善する発明品に。売り出した途端、国中の人々が大絶賛！　好きに物づくりを続けていくと、その才を認めた国王からどんどん叙勲され、爵位は気づけば実家を超えていて…？",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-05",
+          "staff": [
+            {
+              "name": "よどら文鳥",
+              "role": "著"
+            },
+            {
+              "name": "みるちょ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607415",
+      "seriesName": "王宮勤めは、本日をもって終了です。～文官令嬢は追放されましたので、辺境から王家のご繁栄をお祈りいたします～【最強令嬢の大逆転シリーズ】",
+      "label": "ベリーズファンタジー",
+      "titles": [
+        {
+          "productUuid": "bb800808-b48b-4eb3-823b-86211bcab056",
+          "titleName": "王宮勤めは、本日をもって終了です。～文官令嬢は追放されましたので、辺境から王家のご繁栄をお祈りいたします～【最強令嬢の大逆転シリーズ】【電子限定SS付き】",
+          "lightNovelType": "新文芸",
+          "publisher": "スターツ出版",
+          "priceBeforeTax": 1450,
+          "priceAfterTax": 1595,
+          "synopsis": "王宮の人事部で働くエルニーナは、令嬢だからと見下す上司らに蔑ろにされる日々を送っていた。ある日国王が疎む王弟・ドラヴェンが治める過酷な辺境領への左遷を命じられるが…むしろ好都合！　人の才能を見抜く目と内政の知識・算術に長けたエルニーナは、ドラヴェンや領民達と協力して困難を次々と乗り越えていく。エルニーナの優れた采配で辺境領が快適になっていく一方、その功績は王宮にも届き、国王は目障りな彼らを陥れようと策を仕掛けてきて…？　無能と捨てられた文官令嬢が、辺境の地で最高の仲間と送る爽快逆転ファンタジー、開幕！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-05",
+          "staff": [
+            {
+              "name": "雨宮れん",
+              "role": "著"
+            },
+            {
+              "name": "晴",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "standalone-84dac661-d82f-47f0-82c8-2eb01b5080aa",
+      "seriesName": "",
+      "label": null,
+      "titles": [
+        {
+          "productUuid": "84dac661-d82f-47f0-82c8-2eb01b5080aa",
+          "titleName": "",
+          "lightNovelType": "新文芸",
+          "publisher": null,
+          "priceBeforeTax": null,
+          "priceAfterTax": null,
+          "synopsis": null,
+          "originalPublicationDate": null,
+          "saleDate": null,
+          "staff": [],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "496868",
+      "seriesName": "魔除けの聖女は無能で役立たずをやめることにしました",
+      "label": "Mノベルスｆ",
+      "titles": [
+        {
+          "productUuid": "9b697b84-e5e0-4770-89a0-4e01f136b5ec",
+          "titleName": "魔除けの聖女は無能で役立たずをやめることにしました（ノベル）４巻",
+          "lightNovelType": "新文芸",
+          "publisher": "双葉社",
+          "priceBeforeTax": 1450,
+          "priceAfterTax": 1595,
+          "synopsis": "自国から追放され旅をしている魔除けの聖女・アンジュと元騎士隊長のジルベルト達一行が依頼を受け、次に向かったのはラグイアーナ王国。今回の依頼はすぐに完了するはずが、依頼主である国王の、魔除けの聖女を見くびり、実力を試すような行動に、一行は憤り、依頼の遂行も保留することに。ひとまず国内にとどまることにした一行だが、そのせいで次々の新たな問題に巻き込まれていってしまい・・・！？",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-10",
+          "staff": [
+            {
+              "name": "ゆうひかんな",
+              "role": "著者"
+            },
+            {
+              "name": "春が野かおる",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "604541",
+      "seriesName": "ダル絡みギャルのせいで俺の性癖が歪みそう",
+      "label": "FRNノベル",
+      "titles": [
+        {
+          "productUuid": "ed2edb0e-ed5a-4279-b675-8a4b4cfa5968",
+          "titleName": "ダル絡みギャルのせいで俺の性癖が歪みそう",
+          "lightNovelType": "ラノベ",
+          "publisher": "フランス書院",
+          "priceBeforeTax": 1300,
+          "priceAfterTax": 1430,
+          "synopsis": "大和撫子好きな浅見直央の学校生活は、ギャル三人組の誘惑で一変！　ダル絡みギャル×性癖破壊＝寸止め誘惑健全学園ラブコメ！黒髪清楚の大和撫子ヒロインをこよなく愛する浅見直央。\nだが、地味な学校生活は、ギャル三人組のダル絡みで一変！\n「浅見さぁ～、アタシらの中で、誰がいちばん好き？」\nギャルのかわいさ勝負の陰キャ代表審判として目をつけられた!?\n突如始まった魅力度アピールは、色仕掛けへと発展！\n圧倒的陽キャギャル・美嶋夏純の、たわわな巨乳。\nクールな女王様ギャル・加賀谷凛莉羽の、スレンダー美脚。\nゆるふわ褐色ギャル・玉城煌の、包容力抜群ボディ。\nめくるめく誘惑で、純情な一般少年の性癖は歪みはじめた！\nダル絡みギャル×性癖破壊＝寸止め誘惑健全学園ラブコメ！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-10",
+          "staff": [
+            {
+              "name": "鵠",
+              "role": "著者"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "508288",
+      "seriesName": "闇堕ちラスボス令嬢の幼馴染に転生した。俺が死んだらバッドエンド確定なので最強になったけど、もう闇堕ち【ヤンデレ化】してませんか？",
+      "label": "ブレイブ文庫",
+      "titles": [
+        {
+          "productUuid": "bebce7b1-a5ee-4bd2-bb52-98c97e666cea",
+          "titleName": "闇堕ちラスボス令嬢の幼馴染に転生した。俺が死んだらバッドエンド確定なので最強になったけど、もう闇堕ち【ヤンデレ化】してませんか？（ブレイブ文庫）３【BOOK☆WALKER限定特典付き】",
+          "lightNovelType": "ラノベ",
+          "publisher": "一二三書房",
+          "priceBeforeTax": 850,
+          "priceAfterTax": 935,
+          "synopsis": "コミカライズ好評連載中！　激重主従ラブ第３弾!!ラスボス令嬢エレオノールのバッドエンドを回避するべく、彼女と共に学園に入学した転生者アルクス。\n学園生活はおおむね平和と言えるものの、騎士科の仲間と親交を深める彼に、エレオノールの不穏な独占欲はますます加速するばかり。\nそんな中、生徒会の副会長を務めるシーザーからアルクスはある提案をされる。\n「――最強を破壊するのも、また権力や社会なんだよ」\nそして事態は思わぬ方向へ動き出し――。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-24",
+          "staff": [
+            {
+              "name": "オーミヤビ",
+              "role": "著者"
+            },
+            {
+              "name": "ヨ剤",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607429",
+      "seriesName": "人喰いパンダ殺人事件",
+      "label": "新潮文庫nex",
+      "titles": [
+        {
+          "productUuid": "1da53df1-6a92-44a5-8250-5984d2684ce3",
+          "titleName": "人喰いパンダ殺人事件（新潮文庫nex）",
+          "lightNovelType": "ラノベ",
+          "publisher": "新潮社",
+          "priceBeforeTax": 630,
+          "priceAfterTax": 693,
+          "synopsis": "「ヒロくん！　いまはさ、別れ話をしてる最中だよねえ！」ここは手作りソーセージが人気の中華式洋食店〈大熊猫亭〉。ランチデート中に、外で警報が鳴り響く。「凶暴な人喰いパンダが街を徘徊中。外出しないでください！」籠城中の店内で、今度は腹を引き裂かれた惨殺死体が発見された。犯人はパンダか、それとも――!?　予測不能の大どんでん返しが炸裂する、驚愕の本格ミステリ。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-29",
+          "staff": [
+            {
+              "name": "五条紀夫",
+              "role": "著"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "591267",
+      "seriesName": "〈完全版〉ＪＫハルは異世界で娼婦になった",
+      "label": "新潮文庫nex",
+      "titles": [
+        {
+          "productUuid": "badb28ac-2598-4490-ae3e-ed6153913451",
+          "titleName": "〈完全版〉ＪＫハルは異世界で娼婦になった　summer（新潮文庫nex）",
+          "lightNovelType": "ラノベ",
+          "publisher": "新潮社",
+          "priceBeforeTax": 750,
+          "priceAfterTax": 825,
+          "synopsis": "暴走するトラックにはねられ異世界へ飛ばされた女子高生のハルだが、その転生ライフはとんでもないことになっていた！　娼館に現れた下着泥棒を逮捕したら、まさかの殺人事件が!?（「『夜想の青猫亭』殺人事件」）。ナンバー１娼婦のキズハが千葉と密会!?（「続・いつかヒーローみたいに君のこと救いたかった」）。他、初書籍化の掌編も多数収録。ハルと仲間たちの愉快すぎる短編集。　※本書はハヤカワ文庫より過去に配信された作品に加筆修正し、新たに掌編を加えた『完全版』となります。重複購入にはご注意ください。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-29",
+          "staff": [
+            {
+              "name": "平鳥 コウ",
+              "role": "著"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "607426",
+      "seriesName": "その他の危険",
+      "label": "新潮文庫nex",
+      "titles": [
+        {
+          "productUuid": "fcff5144-a78c-48db-a0bd-413a57c41954",
+          "titleName": "その他の危険（新潮文庫nex）",
+          "lightNovelType": "ラノベ",
+          "publisher": "新潮社",
+          "priceBeforeTax": 630,
+          "priceAfterTax": 693,
+          "synopsis": "普段の帰り道、見慣れた職場、親しい友達。“それ”はあなたの日常に身を潜めて待っている。突然会社に来なくなった同期の行方、あり得ない死に方をしたパパ活相手、タワマンで起きる常識外の現象、現実を侵食する存在しないはずの子供の遊び、大好きな先輩に隠された猛毒、同級生が死んだ後に学校で出回った人魂の噂。ホラー小説界を牽引する新たな才能たちが贈る恐怖のアンソロジー。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-07-29",
+          "staff": [
+            {
+              "name": "背筋",
+              "role": "著"
+            },
+            {
+              "name": "斜線堂 有紀",
+              "role": "著"
+            },
+            {
+              "name": "上條一輝",
+              "role": "著"
+            },
+            {
+              "name": "新名　智",
+              "role": "著"
+            },
+            {
+              "name": "皮肉屋文庫",
+              "role": "著"
+            },
+            {
+              "name": "梨",
+              "role": "著"
+            }
+          ],
+          "firstSeenDate": "2026-06-27",
+          "lastSeenOnScheduleDate": "2026-06-27",
+          "reservationHistory": [
+            {
+              "date": "2026-06-27",
               "reservationNumber": 0
             }
           ]
