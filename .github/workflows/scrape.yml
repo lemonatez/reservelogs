@@ -1,9 +1,6 @@
 name: Scrape BookWalker reservations
 
 on:
-  schedule:
-    # 00:15 JST = 15:15 UTC (previous day)
-    - cron: "15 15 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -34,3 +31,4 @@ jobs:
             git commit -m "chore: update reservation data $(date -u +%Y-%m-%d)"
             git push
           fi
+
