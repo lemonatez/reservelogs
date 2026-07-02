@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>reservelogs — BookWalker reservation tracker</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115;
+    --panel: #171a21;
+    --border: #2a2e37;
+    --text: #e6e6e6;
+    --muted: #9aa1ac;
+    --accent: #6ea8fe;
+    --up: #4caf50;
+    --down: #e05252;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.5rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 10;
+  }
+  header h1 {
+    font-size: 1.1rem;
+    margin: 0;
+    white-space: nowrap;
+  }
+  header .meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  header input[type="search"] {
+    flex: 1;
+    min-width: 180px;
+    padding: 0.45rem 0.7rem;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 0.9rem;
+  }
+  header select {
+    padding: 0.45rem 0.7rem;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 0.9rem;
+  }
+  main {
+    padding: 1rem 1.5rem 3rem;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  thead th {
+    text-align: left;
+    padding: 0.5rem 0.6rem;
+    color: var(--muted);
+    font-weight: 600;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  thead th:hover { color: var(--text); }
+  thead th.sorted { color: var(--accent); }
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+  }
+  tbody tr:hover { background: var(--panel); }
+  td {
+    padding: 0.55rem 0.6rem;
+    vertical-align: middle;
+  }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .title-name { font-weight: 500; }
+  .series-name { color: var(--muted); font-size: 0.8rem; }
+  .delta-up { color: var(--up); }
+  .delta-down { color: var(--down); }
+  .delta-flat { color: var(--muted); }
+  .badge {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  svg.spark { display: block; }
+  #empty {
+    padding: 2rem;
+    text-align: center;
+    color: var(--muted);
+    display: none;
+  }
+  #loading, #error {
+    padding: 2rem;
+    text-align: center;
+    color: var(--muted);
+  }
+  #error { color: var(--down); display: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>reservelogs</h1>
+  <span class="meta" id="lastUpdated">loading…</span>
+  <input type="search" id="search" placeholder="Search title, series, publisher…" />
+  <select id="sortSelect">
+    <option value="reservationNumber-desc">Reservations (high → low)</option>
+    <option value="reservationNumber-asc">Reservations (low → high)</option>
+    <option value="delta-desc">Change since first seen (high → low)</option>
+    <option value="saleDate-asc">Sale date (soonest first)</option>
+    <option value="titleName-asc">Title name (A → Z)</option>
+  </select>
+</header>
+<main>
+  <div id="loading">Loading data/reservations.json…</div>
+  <div id="error"></div>
+  <div id="empty">No titles match.</div>
+  <table id="table" hidden>
+    <thead>
+      <tr>
+        <th data-key="titleName">Title</th>
+        <th data-key="label">Label</th>
+        <th data-key="publisher">Publisher</th>
+        <th data-key="saleDate">Sale date</th>
+        <th data-key="reservationNumber" class="num">Reservations</th>
+        <th data-key="delta" class="num">Δ since first</th>
+        <th>Trend</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</main>
+<script>
+(function () {
+  const state = { rows: [], sortKey: "reservationNumber", sortDir: "desc", query: "" };
+
+  function flattenRows(data) {
+    const rows = [];
+    for (const series of data.series || []) {
+      for (const title of series.titles || []) {
+        const history = title.reservationHistory || [];
+        const latest = history.length ? history[history.length - 1].reservationNumber : null;
+        const first = history.length ? history[0].reservationNumber : null;
+        rows.push({
+          seriesName: series.seriesName,
+          label: series.label,
+          titleName: title.titleName,
+          publisher: title.publisher,
+          saleDate: title.saleDate,
+          priceAfterTax: title.priceAfterTax,
+          reservationNumber: latest,
+          delta: latest != null && first != null ? latest - first : null,
+          history,
+        });
+      }
+    }
+    return rows;
+  }
+
+  function sparkline(history) {
+    if (!history || history.length < 2) {
+      return '<span class="badge">no trend</span>';
+    }
+    const w = 100, h = 28, pad = 2;
+    const vals = history.map((h) => h.reservationNumber);
+    const min = Math.min(...vals), max = Math.max(...vals);
+    const span = max - min || 1;
+    const step = (w - pad * 2) / (vals.length - 1);
+    const pts = vals.map((v, i) => {
+      const x = pad + i * step;
+      const y = h - pad - ((v - min) / span) * (h - pad * 2);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    });
+    const rising = vals[vals.length - 1] >= vals[0];
+    const stroke = rising ? "var(--up)" : "var(--down)";
+    return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+      <polyline points="${pts.join(" ")}" fill="none" stroke="${stroke}" stroke-width="1.5" />
+    </svg>`;
+  }
+
+  function deltaClass(delta) {
+    if (delta == null || delta === 0) return "delta-flat";
+    return delta > 0 ? "delta-up" : "delta-down";
+  }
+
+  function formatDelta(delta) {
+    if (delta == null) return "—";
+    return delta > 0 ? `+${delta}` : `${delta}`;
+  }
+
+  function render() {
+    const tbody = document.getElementById("tbody");
+    const table = document.getElementById("table");
+    const empty = document.getElementById("empty");
+
+    const q = state.query.trim().toLowerCase();
+    let rows = state.rows.filter((r) => {
+      if (!q) return true;
+      return (
+        (r.titleName || "").toLowerCase().includes(q) ||
+        (r.seriesName || "").toLowerCase().includes(q) ||
+        (r.publisher || "").toLowerCase().includes(q) ||
+        (r.label || "").toLowerCase().includes(q)
+      );
+    });
+
+    const key = state.sortKey;
+    const dir = state.sortDir === "asc" ? 1 : -1;
+    rows = rows.slice().sort((a, b) => {
+      let av = a[key], bv = b[key];
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      if (typeof av === "string") return av.localeCompare(bv) * dir;
+      return (av - bv) * dir;
+    });
+
+    document.querySelectorAll("thead th[data-key]").forEach((th) => {
+      th.classList.toggle("sorted", th.dataset.key === key);
+    });
+
+    if (!rows.length) {
+      table.hidden = true;
+      empty.style.display = "block";
+      return;
+    }
+    empty.style.display = "none";
+    table.hidden = false;
+
+    tbody.innerHTML = rows
+      .map(
+        (r) => `
+      <tr>
+        <td>
+          <div class="title-name">${escapeHtml(r.titleName || "")}</div>
+          <div class="series-name">${escapeHtml(r.seriesName || "")}</div>
+        </td>
+        <td>${escapeHtml(r.label || "")}</td>
+        <td>${escapeHtml(r.publisher || "")}</td>
+        <td>${escapeHtml(r.saleDate || "—")}</td>
+        <td class="num">${r.reservationNumber ?? "—"}</td>
+        <td class="num ${deltaClass(r.delta)}">${formatDelta(r.delta)}</td>
+        <td>${sparkline(r.history)}</td>
+      </tr>`
+      )
+      .join("");
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+    }[c]));
+  }
+
+  document.getElementById("search").addEventListener("input", (e) => {
+    state.query = e.target.value;
+    render();
+  });
+
+  document.getElementById("sortSelect").addEventListener("change", (e) => {
+    const [key, dir] = e.target.value.split("-");
+    state.sortKey = key;
+    state.sortDir = dir;
+    render();
+  });
+
+  document.querySelectorAll("thead th[data-key]").forEach((th) => {
+    th.addEventListener("click", () => {
+      const key = th.dataset.key;
+      if (state.sortKey === key) {
+        state.sortDir = state.sortDir === "asc" ? "desc" : "asc";
+      } else {
+        state.sortKey = key;
+        state.sortDir = "desc";
+      }
+      render();
+    });
+  });
+
+  fetch("data/reservations.json", { cache: "no-store" })
+    .then((res) => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    })
+    .then((data) => {
+      document.getElementById("loading").style.display = "none";
+      document.getElementById("lastUpdated").textContent =
+        "Last updated: " + (data.lastUpdated || "unknown");
+      state.rows = flattenRows(data);
+      render();
+    })
+    .catch((err) => {
+      document.getElementById("loading").style.display = "none";
+      const el = document.getElementById("error");
+      el.style.display = "block";
+      el.textContent = "Failed to load data/reservations.json: " + err.message;
+    });
+})();
+</script>
+</body>
+</html>
