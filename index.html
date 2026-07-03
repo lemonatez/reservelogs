@@ -4,157 +4,719 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>reservelogs — BookWalker reservation tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%234f46e5%22/><path d=%22M6 16l3-4 3 3 6-8%22 stroke=%22white%22 stroke-width=%222.2%22 fill=%22none%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/></svg>" />
+<script>
+  document.documentElement.dataset.theme =
+    localStorage.getItem("reservelogs:theme") ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3"></script>
 <style>
   :root {
-    color-scheme: light dark;
-    --bg: #0f1115;
-    --panel: #171a21;
-    --border: #2a2e37;
-    --text: #e6e6e6;
-    --muted: #9aa1ac;
-    --accent: #6ea8fe;
-    --up: #4caf50;
-    --down: #e05252;
+    --bg: #f4f6f9;
+    --surface: #ffffff;
+    --surface-2: #f1f3f7;
+    --border: #e2e6ed;
+    --text: #12141a;
+    --text-muted: #666e7d;
+    --accent: #4f46e5;
+    --accent-fill: rgba(79, 70, 229, 0.10);
+    --up: #059669;
+    --up-fill: rgba(5, 150, 105, 0.10);
+    --down: #e11d48;
+    --down-fill: rgba(225, 29, 72, 0.10);
+    --warn: #b45309;
+    --warn-fill: rgba(217, 119, 6, 0.16);
+    --violet: #7c3aed;
+    --violet-fill: rgba(124, 58, 237, 0.10);
+    --chart-grid: rgba(15, 23, 42, 0.08);
+    --radius: 14px;
+    --shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 10px 24px -14px rgba(15, 23, 42, 0.12);
   }
+  html[data-theme="dark"] {
+    --bg: #0a0b0f;
+    --surface: #14161d;
+    --surface-2: #1b1e27;
+    --border: rgba(255, 255, 255, 0.09);
+    --text: #e8e9ec;
+    --text-muted: #8b909c;
+    --accent: #818cf8;
+    --accent-fill: rgba(129, 140, 248, 0.16);
+    --up: #34d399;
+    --up-fill: rgba(52, 211, 153, 0.16);
+    --down: #fb7185;
+    --down-fill: rgba(251, 113, 133, 0.16);
+    --warn: #fbbf24;
+    --warn-fill: rgba(251, 191, 36, 0.18);
+    --violet: #c084fc;
+    --violet-fill: rgba(192, 132, 252, 0.16);
+    --chart-grid: rgba(255, 255, 255, 0.08);
+    --shadow: none;
+  }
+
   * { box-sizing: border-box; }
+  html, body { height: 100%; }
   body {
     margin: 0;
-    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", "Noto Sans JP", sans-serif;
     background: var(--bg);
     color: var(--text);
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
-  header {
-    padding: 1.25rem 1.5rem;
-    border-bottom: 1px solid var(--border);
+  ::-webkit-scrollbar { height: 8px; width: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+  .hidden { display: none !important; }
+
+  .app {
+    display: grid;
+    grid-template-columns: 232px 1fr;
+    min-height: 100vh;
+  }
+  @media (max-width: 768px) {
+    .app { grid-template-columns: 1fr; }
+  }
+
+  .sidebar {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem 1.5rem;
-    align-items: center;
+    flex-direction: column;
+    padding: 20px 14px;
+    gap: 22px;
     position: sticky;
     top: 0;
-    background: var(--bg);
-    z-index: 10;
+    height: 100vh;
+    overflow-y: auto;
   }
-  header h1 {
-    font-size: 1.1rem;
-    margin: 0;
-    white-space: nowrap;
+  @media (max-width: 768px) {
+    .sidebar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      height: auto;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px;
+      gap: 12px;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar-footer { margin-top: 0; flex-direction: row; }
+    .brand-text small { display: none; }
   }
-  header .meta {
-    color: var(--muted);
-    font-size: 0.85rem;
+
+  .brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .brand-mark {
+    width: 32px; height: 32px; border-radius: 9px;
+    background: var(--accent); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
   }
-  header input[type="search"] {
-    flex: 1;
-    min-width: 180px;
-    padding: 0.45rem 0.7rem;
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    color: var(--text);
-    font-size: 0.9rem;
+  .brand-text strong { display: block; font-size: 14px; font-weight: 700; letter-spacing: -0.01em; }
+  .brand-text small { color: var(--text-muted); font-size: 11px; }
+
+  .nav { display: flex; flex-direction: column; gap: 2px; }
+  .nav-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 9px 10px; border-radius: 9px; border: none; background: none;
+    color: var(--text-muted); font-size: 13.5px; font-weight: 500;
+    cursor: pointer; text-align: left; white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+    font-family: inherit;
   }
-  header select {
-    padding: 0.45rem 0.7rem;
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    color: var(--text);
-    font-size: 0.9rem;
+  .nav-item:hover { background: var(--surface-2); color: var(--text); }
+  .nav-item.active { background: var(--accent-fill); color: var(--accent); }
+  .nav-item svg { flex-shrink: 0; }
+
+  @media (max-width: 768px) {
+    .nav {
+      position: fixed;
+      left: 0; right: 0; bottom: 0;
+      z-index: 30;
+      flex-direction: row;
+      gap: 0;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 4px 4px calc(4px + env(safe-area-inset-bottom));
+      box-shadow: 0 -6px 18px -12px rgba(15, 23, 42, 0.25);
+    }
+    .nav-item {
+      flex: 1; flex-direction: column; justify-content: center;
+      gap: 3px; padding: 7px 2px; min-height: 52px;
+      font-size: 10.5px; white-space: normal; text-align: center;
+    }
+    .main { padding-bottom: calc(60px + env(safe-area-inset-bottom)); }
   }
-  main {
-    padding: 1rem 1.5rem 3rem;
+
+  .sidebar-footer { margin-top: auto; display: flex; flex-direction: column; gap: 8px; }
+
+  .ghost-btn, .icon-btn {
+    border: 1px solid var(--border); background: var(--surface-2); color: var(--text-muted);
+    border-radius: 9px; cursor: pointer; transition: background 0.15s; font-family: inherit;
   }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
+  .ghost-btn { font-size: 12.5px; font-weight: 600; padding: 8px 10px; white-space: nowrap; }
+  .icon-btn { padding: 8px; display: flex; align-items: center; justify-content: center; }
+  .ghost-btn:hover, .icon-btn:hover { background: var(--border); }
+
+  .main { display: flex; flex-direction: column; min-width: 0; }
+
+  .topbar {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px;
+    padding: 14px 24px; border-bottom: 1px solid var(--border);
+    background: var(--surface);
   }
+  .search-wrap { position: relative; flex: 1; min-width: 0; max-width: 360px; }
+  .search-wrap svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; }
+  input[type="search"] {
+    width: 100%; padding: 9px 34px; border: 1px solid var(--border);
+    background: var(--surface-2); color: var(--text); border-radius: 9px;
+    font-size: 13.5px; outline: none; font-family: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  input[type="search"]:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-fill); }
+  input[type="search"]::-webkit-search-cancel-button { display: none; }
+  .clear-btn {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+    border: none; background: none; color: var(--text-muted); cursor: pointer; padding: 2px; display: flex;
+  }
+  .clear-btn:hover { color: var(--text); }
+  .last-updated { margin-left: auto; font-size: 12px; color: var(--text-muted); white-space: nowrap; }
+
+  .content { padding: 24px; flex: 1; min-width: 0; }
+  .footer { padding: 20px 24px; text-align: center; font-size: 12px; color: var(--text-muted); border-top: 1px solid var(--border); }
+
+  .view.hidden { display: none; }
+
+  @media (max-width: 768px) {
+    .sidebar { min-height: 56px; }
+    .topbar { position: static; padding: 12px 16px; }
+    .search-wrap { max-width: none; }
+    .content { padding: 16px; }
+    .footer { padding: 16px; padding-bottom: calc(16px + env(safe-area-inset-bottom)); }
+    .panel { padding: 16px; }
+    .stat-card { padding: 13px; }
+    thead th, td { padding: 10px 12px; }
+    .ghost-btn, .icon-btn { padding: 10px; min-height: 40px; min-width: 40px; }
+    .filter-bar { flex-direction: column; align-items: stretch; }
+    .filter-bar select, .filter-bar button, #daySelect { width: 100%; }
+    .filter-bar #sortSelect { margin-left: 0; }
+    #view-byday .panel select { width: 100%; }
+  }
+
+  .stat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 20px; }
+  @media (min-width: 960px) { .stat-grid { grid-template-columns: repeat(4, 1fr); } }
+  @media (min-width: 640px) { .stat-grid.cols-3 { grid-template-columns: repeat(3, 1fr); } }
+  .stat-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 16px; box-shadow: var(--shadow); transition: transform 0.15s; min-width: 0;
+  }
+  .stat-card:hover { transform: translateY(-1px); }
+  .stat-top { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+  .stat-icon { width: 28px; height: 28px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .stat-icon.c-accent { background: var(--accent-fill); color: var(--accent); }
+  .stat-icon.c-up { background: var(--up-fill); color: var(--up); }
+  .stat-icon.c-violet { background: var(--violet-fill); color: var(--violet); }
+  .stat-icon.c-warn { background: var(--warn-fill); color: var(--warn); }
+  .stat-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); font-weight: 700; }
+  .stat-value { font-size: 24px; font-weight: 700; letter-spacing: -0.02em; }
+  .stat-value.small { font-size: 15px; }
+  .stat-sub { font-size: 12px; margin-top: 2px; }
+
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px; margin-bottom: 20px; min-width: 0; }
+  .panel-title { font-size: 13.5px; font-weight: 700; margin-bottom: 4px; }
+  .panel-hint { font-size: 12px; color: var(--text-muted); margin: 0 0 14px; }
+  .chart-box { height: 220px; margin-top: 14px; }
+
+  .two-col { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  @media (min-width: 860px) { .two-col { grid-template-columns: 1fr 1fr; } }
+
+  .movers-list { list-style: none; margin: 0; padding: 0; min-width: 0; }
+  .movers-item { display: flex; justify-content: space-between; gap: 10px; padding: 8px 0; font-size: 13px; border-bottom: 1px solid var(--border); min-width: 0; }
+  .movers-item:last-child { border-bottom: none; }
+  .movers-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; flex: 1 1 auto; }
+  .movers-delta { flex-shrink: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  .series-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+  .series-card {
+    display: flex; flex-direction: column; text-align: left; width: 100%; min-width: 0;
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 16px; box-shadow: var(--shadow); cursor: pointer; font-family: inherit;
+    transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+  }
+  .series-card:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 1px 2px rgba(15,23,42,.04), 0 14px 28px -16px rgba(15,23,42,.18); }
+  .series-card .s-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+  .series-card .s-name {
+    font-weight: 700; font-size: 14px; color: var(--text); line-height: 1.35;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    min-height: 2.7em;
+  }
+  .series-card .s-stats {
+    display: flex; align-items: flex-end; justify-content: space-between; gap: 8px;
+    margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);
+  }
+  .series-card .s-stat-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); font-weight: 700; margin-bottom: 3px; }
+  .series-card .s-value { font-size: 19px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1; }
+  .series-card .s-date { font-size: 12.5px; font-weight: 600; color: var(--text-muted); text-align: right; }
+
+  .back-btn {
+    display: inline-flex; align-items: center; gap: 6px; margin-bottom: 16px;
+    border: none; background: none; color: var(--text-muted); font-size: 13px; font-weight: 600;
+    cursor: pointer; padding: 4px 2px; font-family: inherit; transition: color 0.15s;
+  }
+  .back-btn:hover { color: var(--accent); }
+
+  .series-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+  .series-head-name { margin: 0; font-size: 19px; font-weight: 700; letter-spacing: -0.01em; }
+
+  .section-heading { font-size: 13px; font-weight: 700; color: var(--text); margin: 4px 0 10px; }
+
+  select {
+    border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
+    padding: 8px 10px; border-radius: 9px; font-size: 13px; outline: none; font-family: inherit;
+    max-width: 100%;
+  }
+  select:focus { border-color: var(--accent); }
+  .filter-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 14px; }
+  .filter-bar #sortSelect { margin-left: auto; }
+
+  .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+  .table-scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
   thead th {
-    text-align: left;
-    padding: 0.5rem 0.6rem;
-    color: var(--muted);
-    font-weight: 600;
-    border-bottom: 1px solid var(--border);
-    cursor: pointer;
-    user-select: none;
-    white-space: nowrap;
+    text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--text-muted); font-weight: 700; padding: 11px 16px;
+    background: var(--surface-2); border-bottom: 1px solid var(--border); white-space: nowrap;
   }
-  thead th:hover { color: var(--text); }
-  thead th.sorted { color: var(--accent); }
-  tbody tr {
-    border-bottom: 1px solid var(--border);
-  }
-  tbody tr:hover { background: var(--panel); }
-  td {
-    padding: 0.55rem 0.6rem;
-    vertical-align: middle;
-  }
-  td.num { text-align: right; font-variant-numeric: tabular-nums; }
-  .title-name { font-weight: 500; }
-  .series-name { color: var(--muted); font-size: 0.8rem; }
-  .delta-up { color: var(--up); }
-  .delta-down { color: var(--down); }
-  .delta-flat { color: var(--muted); }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: var(--text); }
+  th.sorted { color: var(--accent); }
+  th.num, td.num { text-align: right; }
+  tbody tr { border-bottom: 1px solid var(--border); }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr.data-row { cursor: pointer; transition: background 0.15s; scroll-margin-top: 76px; }
+  tbody tr.data-row:hover { background: var(--surface-2); }
+  tbody tr.detail-row { background: var(--surface-2); }
+  td { padding: 11px 16px; vertical-align: middle; }
+  .title-cell { display: flex; align-items: flex-start; gap: 6px; }
+  .title-cell .chevron { margin-top: 3px; flex-shrink: 0; color: var(--text-muted); transition: transform 0.18s; }
+  tr.is-expanded .chevron { transform: rotate(90deg); }
+  .title-name { font-weight: 600; color: var(--text); }
+  .muted { color: var(--text-muted); }
+  .fine { font-size: 12px; color: var(--text-muted); }
+
+  .up { color: var(--up); font-weight: 600; }
+  .down { color: var(--down); font-weight: 600; }
+  .flat { color: var(--text-muted); }
+
   .badge {
-    display: inline-block;
-    padding: 0.1rem 0.4rem;
-    border-radius: 4px;
-    background: var(--panel);
-    border: 1px solid var(--border);
-    font-size: 0.75rem;
-    color: var(--muted);
+    display: inline-flex; align-items: center; gap: 4px; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--surface-2); color: var(--text-muted);
+    font-size: 10.5px; padding: 2px 8px;
   }
-  svg.spark { display: block; }
-  #empty {
-    padding: 2rem;
-    text-align: center;
-    color: var(--muted);
-    display: none;
+  .badge.new { border-color: var(--accent); background: var(--accent-fill); color: var(--accent); }
+
+  .notify-note {
+    display: flex; gap: 9px; margin-top: 12px; padding: 10px 12px;
+    background: var(--warn-fill); border: 1px solid var(--warn); border-radius: 10px;
+    color: var(--text); font-size: 12px; line-height: 1.5;
   }
-  #loading, #error {
-    padding: 2rem;
-    text-align: center;
-    color: var(--muted);
+  .notify-note svg { flex-shrink: 0; margin-top: 1px; color: var(--warn); }
+  .notify-note strong { display: block; color: var(--warn); font-size: 12.5px; margin-bottom: 2px; }
+  .notify-note span { color: var(--text-muted); }
+
+  .state-block { padding: 60px 20px; text-align: center; color: var(--text-muted); font-size: 13.5px; }
+  .state-block.error { color: var(--down); }
+  .spinner {
+    width: 15px; height: 15px; border: 2px solid var(--border); border-top-color: var(--accent);
+    border-radius: 50%; display: inline-block; vertical-align: -3px; margin-right: 8px;
+    animation: spin 0.7s linear infinite;
   }
-  #error { color: var(--down); display: none; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .skeleton { animation: pulse 1.4s ease-in-out infinite; background: var(--surface-2); border-radius: var(--radius); }
+  @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+  .skeleton-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  @media (min-width: 960px) { .skeleton-grid { grid-template-columns: repeat(4, 1fr); } }
 </style>
 </head>
 <body>
-<header>
-  <h1>reservelogs</h1>
-  <span class="meta" id="lastUpdated">loading…</span>
-  <input type="search" id="search" placeholder="Search title, series, publisher…" />
-  <select id="sortSelect">
-    <option value="reservationNumber-desc">Reservations (high → low)</option>
-    <option value="reservationNumber-asc">Reservations (low → high)</option>
-    <option value="delta-desc">Change since first seen (high → low)</option>
-    <option value="saleDate-asc">Sale date (soonest first)</option>
-    <option value="titleName-asc">Title name (A → Z)</option>
-  </select>
-</header>
-<main>
-  <div id="loading">Loading data/reservations.json…</div>
-  <div id="error"></div>
-  <div id="empty">No titles match.</div>
-  <table id="table" hidden>
-    <thead>
-      <tr>
-        <th data-key="titleName">Title</th>
-        <th data-key="label">Label</th>
-        <th data-key="publisher">Publisher</th>
-        <th data-key="saleDate">Sale date</th>
-        <th data-key="reservationNumber" class="num">Reservations</th>
-        <th data-key="delta" class="num">Δ since first</th>
-        <th>Trend</th>
-      </tr>
-    </thead>
-    <tbody id="tbody"></tbody>
-  </table>
-</main>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 16l3-4 3 3 6-8" />
+        </svg>
+      </div>
+      <div class="brand-text">
+        <strong>reservelogs</strong>
+        <small id="subtitle"></small>
+      </div>
+    </div>
+
+    <nav class="nav" id="tabNav">
+      <button class="nav-item" data-tab="overview">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18M7 15l3-4 3 3 5-7" /></svg>
+        <span></span>
+      </button>
+      <button class="nav-item" data-tab="byday">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 3v3m8-3v3M4 8h16M5 6h14a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1z" /></svg>
+        <span></span>
+      </button>
+      <button class="nav-item" data-tab="titles">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h10" /></svg>
+        <span></span>
+      </button>
+      <button class="nav-item" data-tab="series">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 19.5A2.5 2.5 0 016.5 17H20M4 4.5A2.5 2.5 0 016.5 2H20v17.5a2.5 2.5 0 01-2.5 2.5H6.5A2.5 2.5 0 014 19.5v-15z" /></svg>
+        <span></span>
+      </button>
+    </nav>
+
+    <div class="sidebar-footer">
+      <button id="langToggle" class="ghost-btn"></button>
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+        <svg id="iconSun" width="16" height="16" class="hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5m-15 0H3m15.36-6.36l-1.06 1.06M6.7 17.3l-1.06 1.06m0-12.72L6.7 6.7m10.6 10.6l1.06 1.06M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" />
+        </svg>
+        <svg id="iconMoon" width="16" height="16" class="hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+        </svg>
+      </button>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="topbar">
+      <div class="search-wrap">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+        </svg>
+        <input type="search" id="search" />
+        <button id="searchClear" class="clear-btn hidden" aria-label="Clear search">
+          <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <span id="lastUpdated" class="last-updated"></span>
+    </header>
+
+    <main class="content">
+      <div id="loading">
+        <div class="state-block" style="padding: 30px 0 22px;">
+          <span class="spinner"></span><span id="loadingText"></span>
+        </div>
+        <div class="skeleton-grid">
+          <div class="skeleton" style="height:84px;"></div>
+          <div class="skeleton" style="height:84px;"></div>
+          <div class="skeleton" style="height:84px;"></div>
+          <div class="skeleton" style="height:84px;"></div>
+        </div>
+        <div class="skeleton" style="height:220px;margin-top:16px;"></div>
+      </div>
+      <div id="error" class="state-block error hidden"></div>
+
+      <!-- Overview -->
+      <section class="view hidden" id="view-overview">
+        <div class="stat-grid" id="statGrid"></div>
+
+        <div class="panel">
+          <div class="panel-title" id="totalsChartTitle"></div>
+          <div class="chart-box"><canvas id="totalsChartCanvas"></canvas></div>
+        </div>
+
+        <div class="two-col">
+          <div class="panel">
+            <div class="panel-title" id="countChartTitle"></div>
+            <div class="chart-box"><canvas id="countChartCanvas"></canvas></div>
+          </div>
+          <div class="panel">
+            <div class="panel-title" id="topMoversTitle"></div>
+            <p class="panel-hint" id="topMoversLabel"></p>
+            <ul class="movers-list" id="topMovers"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- By Day -->
+      <section class="view hidden" id="view-byday">
+        <div class="panel">
+          <div class="panel-title" id="bydayTitle"></div>
+          <p class="panel-hint" id="bydayHint"></p>
+          <select id="daySelect"></select>
+        </div>
+        <div id="dayEmpty" class="state-block hidden"></div>
+        <div class="table-wrap hidden" id="dayTableWrap">
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th id="dayColTitle"></th>
+                  <th id="dayColSeries"></th>
+                  <th class="num" id="dayColPrev"></th>
+                  <th class="num" id="dayColNew"></th>
+                  <th class="num" id="dayColDelta"></th>
+                </tr>
+              </thead>
+              <tbody id="dayTbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Titles -->
+      <section class="view hidden" id="view-titles">
+        <div class="filter-bar">
+          <select id="filterLabel"></select>
+          <select id="filterPublisher"></select>
+          <select id="filterTrend"></select>
+          <button id="filterReset" class="ghost-btn"></button>
+          <select id="sortSelect"></select>
+        </div>
+        <div id="empty" class="state-block hidden"></div>
+        <div class="table-wrap hidden" id="titlesTableWrap">
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th data-key="titleName" class="sortable"></th>
+                  <th data-key="label" class="sortable"></th>
+                  <th data-key="publisher" class="sortable"></th>
+                  <th data-key="saleDate" class="sortable"></th>
+                  <th data-key="reservationNumber" class="sortable num"></th>
+                  <th data-key="delta" class="sortable num"></th>
+                  <th id="titlesColTrend"></th>
+                </tr>
+              </thead>
+              <tbody id="tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Series -->
+      <section class="view hidden" id="view-series">
+        <div id="seriesListWrap">
+          <div id="seriesEmpty" class="state-block hidden"></div>
+          <div class="series-grid" id="seriesGrid"></div>
+        </div>
+        <div id="seriesDetailWrap" class="hidden">
+          <button id="seriesBack" class="back-btn">
+            <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.4"><path stroke-linecap="round" stroke-linejoin="round" d="M15 18l-6-6 6-6"/></svg>
+            <span id="seriesBackLabel"></span>
+          </button>
+
+          <div class="series-head">
+            <span class="badge" id="seriesDetailLabel"></span>
+            <h2 class="series-head-name" id="seriesDetailName"></h2>
+          </div>
+
+          <div class="stat-grid cols-3" id="seriesStatGrid"></div>
+
+          <div class="panel">
+            <div class="panel-title" id="seriesChartLabel"></div>
+            <div class="chart-box"><canvas id="seriesChartCanvas"></canvas></div>
+          </div>
+
+          <div class="section-heading" id="seriesVolumesHeading"></div>
+          <div class="table-wrap" id="seriesVolumesWrap">
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th id="seriesColTitle"></th>
+                    <th id="seriesColSaleDate"></th>
+                    <th class="num" id="seriesColReservations"></th>
+                    <th class="num" id="seriesColDelta"></th>
+                    <th id="seriesColTrend"></th>
+                  </tr>
+                </thead>
+                <tbody id="seriesVolumesTbody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Scraped daily from BookWalker schedule listings · data stays even after titles go on sale
+    </footer>
+  </div>
+</div>
+
 <script>
 (function () {
-  const state = { rows: [], sortKey: "reservationNumber", sortDir: "desc", query: "" };
+  const STRINGS = {
+    en: {
+      subtitle: "BookWalker reservation tracker",
+      loading: "Loading data/reservations.json…",
+      lastUpdated: "Last updated",
+      searchPlaceholder: "Search title, series, publisher…",
+      langToggle: "日本語",
+      tabs: { overview: "Overview", byday: "By Day", titles: "Titles", series: "Series" },
+      overview: {
+        titlesTracked: "Titles tracked",
+        totalReservations: "Total reservations",
+        vsPrevDay: "vs prev day",
+        daysOfHistory: "Days of history",
+        dateRange: "Date range",
+        totalsChartTitle: "Total reservations by day (all tracked titles)",
+        countChartTitle: "Titles tracked by day",
+        topMovers: "Top movers",
+        topMoversLabel: (d) => `Reservation count changes on ${d}`,
+        noChanges: "No changes recorded.",
+      },
+      byday: {
+        title: "Daily change log",
+        hint: "Pick a date to see every title scraped that day and how its reservation count moved since its previous entry.",
+        empty: "No titles for this date.",
+        colTitle: "Title", colSeries: "Series", colPrev: "Prev", colNew: "New", colDelta: "Δ",
+        new: "new",
+      },
+      titles: {
+        empty: "No titles match.",
+        colTitle: "Title", colLabel: "Label", colPublisher: "Publisher", colSaleDate: "Sale date",
+        colReservations: "Reservations", colDelta: "Δ since first", colTrend: "Trend",
+        noTrend: "no trend",
+        notifyLabel: "Shaded area = before notification",
+        notifyExplain: "BookWalker doesn't notify followers the instant a title is listed. The shaded day is often 0 reservations because readers haven't been notified yet — the count usually jumps once the notification goes out the next day.",
+        allLabels: "All labels",
+        allPublishers: "All publishers",
+        trendAll: "All trends",
+        trendUp: "Rising only",
+        trendDown: "Falling only",
+        resetFilters: "Reset filters",
+        sortOptions: {
+          "reservationNumber-desc": "Reservations (high → low)",
+          "reservationNumber-asc": "Reservations (low → high)",
+          "delta-desc": "Change since first seen (high → low)",
+          "saleDate-asc": "Sale date (soonest first)",
+          "titleName-asc": "Title name (A → Z)",
+        },
+      },
+      series: {
+        searchHint: "Search series or label…",
+        empty: "No series match.",
+        volumes: (n) => `${n} ${n === 1 ? "volume" : "volumes"}`,
+        volumesHeading: (n) => `Volumes (${n})`,
+        backToList: "All series",
+        chartTitle: "Reservation trend by volume (day since first seen)",
+        statVolumes: "Volumes",
+        statLatest: "Latest reservation",
+        statSaleDate: "Latest sale date",
+        colTitle: "Volume", colSaleDate: "Sale date", colReservations: "Reservations", colDelta: "Δ since first", colTrend: "Trend",
+      },
+      error: (msg) => `Failed to load data/reservations.json: ${msg}`,
+      locale: "en-US",
+    },
+    ja: {
+      subtitle: "BookWalker予約数トラッカー",
+      loading: "data/reservations.json を読み込み中…",
+      lastUpdated: "最終更新",
+      searchPlaceholder: "タイトル・シリーズ・出版社を検索…",
+      langToggle: "English",
+      tabs: { overview: "概要", byday: "日別", titles: "タイトル一覧", series: "シリーズ" },
+      overview: {
+        titlesTracked: "追跡中タイトル数",
+        totalReservations: "総予約数",
+        vsPrevDay: "前日比",
+        daysOfHistory: "記録日数",
+        dateRange: "期間",
+        totalsChartTitle: "日別総予約数（全タイトル合計）",
+        countChartTitle: "日別追跡タイトル数",
+        topMovers: "変動上位",
+        topMoversLabel: (d) => `${d} の予約数変動`,
+        noChanges: "変動はありません。",
+      },
+      byday: {
+        title: "日別変動ログ",
+        hint: "日付を選ぶと、その日にチェックした全タイトルの予約数の変化がわかります。",
+        empty: "この日付のタイトルはありません。",
+        colTitle: "タイトル", colSeries: "シリーズ", colPrev: "前回", colNew: "今回", colDelta: "Δ",
+        new: "新規",
+      },
+      titles: {
+        empty: "見つかりませんでした。",
+        colTitle: "タイトル", colLabel: "レーベル", colPublisher: "出版社", colSaleDate: "発売日",
+        colReservations: "予約数", colDelta: "Δ（初回比）", colTrend: "推移",
+        noTrend: "推移データなし",
+        notifyLabel: "網掛け部分 = 通知が届く前",
+        notifyExplain: "BookWalkerは新刊が載ってすぐには通知を送りません。網掛けの日はまだ通知が届く前なので予約数0のことが多く、翌日に通知が届くと一気に伸びることが多いです。",
+        allLabels: "すべてのレーベル",
+        allPublishers: "すべての出版社",
+        trendAll: "すべての傾向",
+        trendUp: "増加中のみ",
+        trendDown: "減少中のみ",
+        resetFilters: "フィルターをリセット",
+        sortOptions: {
+          "reservationNumber-desc": "予約数（多い順）",
+          "reservationNumber-asc": "予約数（少ない順）",
+          "delta-desc": "初回からの増減（多い順）",
+          "saleDate-asc": "発売日（近い順）",
+          "titleName-asc": "タイトル名（A→Z）",
+        },
+      },
+      series: {
+        searchHint: "シリーズ・レーベルを検索…",
+        empty: "該当するシリーズがありません。",
+        volumes: (n) => `${n}巻`,
+        volumesHeading: (n) => `収録巻（${n}）`,
+        backToList: "シリーズ一覧へ",
+        chartTitle: "巻ごとの予約数推移（掲載からの日数）",
+        statVolumes: "巻数",
+        statLatest: "直近の予約数",
+        statSaleDate: "直近の発売日",
+        colTitle: "巻", colSaleDate: "発売日", colReservations: "予約数", colDelta: "Δ（初回比）", colTrend: "推移",
+      },
+      error: (msg) => `data/reservations.json を読み込めませんでした: ${msg}`,
+      locale: "ja-JP",
+    },
+  };
+
+  const state = {
+    rows: [],
+    sortKey: "reservationNumber",
+    sortDir: "desc",
+    query: "",
+    tab: "overview",
+    dates: [],
+    dailyTotals: [],
+    dailyCounts: [],
+    dayChanges: {},
+    selectedDate: null,
+    expanded: new Set(),
+    filterLabel: "",
+    filterPublisher: "",
+    filterTrend: "",
+    seriesIndex: [],
+    seriesView: "list",
+    selectedSeriesId: null,
+    lang: localStorage.getItem("reservelogs:lang") || ((navigator.language || "").startsWith("ja") ? "ja" : "en"),
+    theme: document.documentElement.dataset.theme,
+    loaded: false,
+    lastUpdatedRaw: null,
+  };
+  if (!STRINGS[state.lang]) state.lang = "en";
+
+  const charts = { totals: null, counts: null, series: null, details: new Map() };
+
+  function t() {
+    return STRINGS[state.lang];
+  }
+
+  function cssVar(name) {
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  }
 
   function flattenRows(data) {
     const rows = [];
@@ -164,11 +726,14 @@
         const latest = history.length ? history[history.length - 1].reservationNumber : null;
         const first = history.length ? history[0].reservationNumber : null;
         rows.push({
+          id: title.productUuid || `${series.seriesId || ""}-${title.titleName}`,
+          seriesId: series.seriesId || series.seriesName,
           seriesName: series.seriesName,
           label: series.label,
           titleName: title.titleName,
           publisher: title.publisher,
           saleDate: title.saleDate,
+          firstSeenDate: title.firstSeenDate,
           priceAfterTax: title.priceAfterTax,
           reservationNumber: latest,
           delta: latest != null && first != null ? latest - first : null,
@@ -179,12 +744,74 @@
     return rows;
   }
 
-  function sparkline(history) {
-    if (!history || history.length < 2) {
-      return '<span class="badge">no trend</span>';
+  function buildDailyStats(rows) {
+    const dateSet = new Set();
+    for (const r of rows) {
+      for (const h of r.history) dateSet.add(h.date);
     }
+    const dates = [...dateSet].sort();
+
+    const totals = dates.map((d) => {
+      let sum = 0;
+      for (const r of rows) {
+        const entry = r.history.find((h) => h.date === d);
+        if (entry) sum += entry.reservationNumber;
+      }
+      return sum;
+    });
+
+    const counts = dates.map((d) => {
+      let n = 0;
+      for (const r of rows) {
+        if (r.history.some((h) => h.date === d)) n++;
+      }
+      return n;
+    });
+
+    const dayChanges = {};
+    for (const d of dates) {
+      const list = [];
+      for (const r of rows) {
+        const idx = r.history.findIndex((h) => h.date === d);
+        if (idx === -1) continue;
+        const curr = r.history[idx].reservationNumber;
+        const prev = idx > 0 ? r.history[idx - 1].reservationNumber : null;
+        list.push({ row: r, prev, curr, delta: prev != null ? curr - prev : null });
+      }
+      list.sort((a, b) => {
+        if (a.delta == null && b.delta == null) return 0;
+        if (a.delta == null) return 1;
+        if (b.delta == null) return -1;
+        return b.delta - a.delta;
+      });
+      dayChanges[d] = list;
+    }
+
+    return { dates, totals, counts, dayChanges };
+  }
+
+  function buildSeriesIndex(rows) {
+    const map = new Map();
+    for (const r of rows) {
+      if (!map.has(r.seriesId)) {
+        map.set(r.seriesId, { seriesId: r.seriesId, seriesName: r.seriesName, label: r.label, volumes: [] });
+      }
+      map.get(r.seriesId).volumes.push(r);
+    }
+    const list = [...map.values()];
+    for (const s of list) {
+      s.volumes.sort((a, b) => (a.saleDate || "").localeCompare(b.saleDate || ""));
+    }
+    list.sort((a, b) => (a.seriesName || "").localeCompare(b.seriesName || "", "ja"));
+    return list;
+  }
+
+  function sparkline(history) {
     const w = 100, h = 28, pad = 2;
-    const vals = history.map((h) => h.reservationNumber);
+    if (!history || history.length < 2) {
+      return `<span class="badge">${escapeHtml(t().titles.noTrend)}</span>`;
+    }
+    const vals = history.map((hh) => hh.reservationNumber);
     const min = Math.min(...vals), max = Math.max(...vals);
     const span = max - min || 1;
     const step = (w - pad * 2) / (vals.length - 1);
@@ -193,16 +820,94 @@
       const y = h - pad - ((v - min) / span) * (h - pad * 2);
       return `${x.toFixed(1)},${y.toFixed(1)}`;
     });
-    const rising = vals[vals.length - 1] >= vals[0];
-    const stroke = rising ? "var(--up)" : "var(--down)";
-    return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+    const stroke = vals[vals.length - 1] >= vals[0] ? cssVar("--up") : cssVar("--down");
+    return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="display:block">
       <polyline points="${pts.join(" ")}" fill="none" stroke="${stroke}" stroke-width="1.5" />
     </svg>`;
   }
 
+  function chartColors() {
+    return {
+      grid: cssVar("--chart-grid"),
+      text: cssVar("--text-muted"),
+      accent: cssVar("--accent"),
+      accentFill: cssVar("--accent-fill"),
+      up: cssVar("--up"),
+      upFill: cssVar("--up-fill"),
+      down: cssVar("--down"),
+      downFill: cssVar("--down-fill"),
+      warnFill: cssVar("--warn-fill"),
+    };
+  }
+
+  function baseChartOptions(c, locale) {
+    return {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      scales: {
+        x: { grid: { color: c.grid }, ticks: { color: c.text, maxRotation: 0, autoSkipPadding: 12 } },
+        y: { grid: { color: c.grid }, ticks: { color: c.text }, beginAtZero: true },
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (item) => item.parsed.y.toLocaleString(locale),
+          },
+        },
+      },
+    };
+  }
+
+  function renderLineChart(canvas, prevChart, dates, values, color, fill, annotations) {
+    if (prevChart) prevChart.destroy();
+    const c = chartColors();
+    const options = baseChartOptions(c, t().locale);
+    if (annotations) options.plugins.annotation = { annotations };
+    return new Chart(canvas, {
+      type: "line",
+      data: {
+        labels: dates,
+        datasets: [
+          {
+            data: values,
+            borderColor: color || c.accent,
+            backgroundColor: fill || c.accentFill,
+            fill: true,
+            tension: 0.3,
+            pointRadius: dates.length > 40 ? 0 : 3,
+            pointHoverRadius: 5,
+            pointBackgroundColor: color || c.accent,
+          },
+        ],
+      },
+      options,
+    });
+  }
+
+  const NOTIFY_CUTOFF_DATE = "2026-06-28";
+
+  function hasNotifyGap(row) {
+    return !!row.firstSeenDate && row.firstSeenDate >= NOTIFY_CUTOFF_DATE && row.history.length >= 2;
+  }
+
+  function notifyAnnotation(row) {
+    if (!hasNotifyGap(row)) return null;
+    return {
+      notifyBox: {
+        type: "box",
+        xMin: row.history[0].date,
+        xMax: row.history[1].date,
+        backgroundColor: cssVar("--warn-fill"),
+        borderWidth: 0,
+      },
+    };
+  }
+
   function deltaClass(delta) {
-    if (delta == null || delta === 0) return "delta-flat";
-    return delta > 0 ? "delta-up" : "delta-down";
+    if (delta == null || delta === 0) return "flat";
+    return delta > 0 ? "up" : "down";
   }
 
   function formatDelta(delta) {
@@ -210,13 +915,168 @@
     return delta > 0 ? `+${delta}` : `${delta}`;
   }
 
-  function render() {
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+    }[c]));
+  }
+
+  function renderOverview() {
+    const s = t().overview;
+    const { dates, dailyTotals: totals, dailyCounts: counts, dayChanges } = state;
+    const statGrid = document.getElementById("statGrid");
+    const lastTotal = totals[totals.length - 1] ?? 0;
+    const prevTotal = totals.length > 1 ? totals[totals.length - 2] : null;
+    const totalDelta = prevTotal != null ? lastTotal - prevTotal : null;
+    const lastCount = counts[counts.length - 1] ?? 0;
+
+    const ICONS = {
+      book: '<path stroke-linecap="round" stroke-linejoin="round" d="M4 5.5A2.5 2.5 0 016.5 3H20v15.5A1.5 1.5 0 0118.5 20H6.5A2.5 2.5 0 014 17.5v-12z"/><path stroke-linecap="round" stroke-linejoin="round" d="M4 17.5A2.5 2.5 0 016.5 15H20"/>',
+      trend: '<path stroke-linecap="round" stroke-linejoin="round" d="M3 17l5-6 4 4 8-10M20 5h-4m4 0v4"/>',
+      calendar: '<path stroke-linecap="round" stroke-linejoin="round" d="M8 3v3m8-3v3M4 8h16M5 6h14a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1z"/>',
+      range: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>',
+    };
+    const card = (icon, colorClass, label, value, sub, subClass, valueSize) => `
+      <div class="stat-card">
+        <div class="stat-top">
+          <div class="stat-icon ${colorClass}">
+            <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">${ICONS[icon]}</svg>
+          </div>
+          <div class="stat-label">${label}</div>
+        </div>
+        <div class="stat-value ${valueSize || ""}">${value}</div>
+        ${sub ? `<div class="stat-sub ${subClass || "muted"}">${sub}</div>` : ""}
+      </div>`;
+
+    statGrid.innerHTML =
+      card("book", "c-accent", s.titlesTracked, lastCount) +
+      card(
+        "trend",
+        "c-up",
+        s.totalReservations,
+        lastTotal.toLocaleString(t().locale),
+        totalDelta != null ? formatDelta(totalDelta) + " " + s.vsPrevDay : "—",
+        deltaClass(totalDelta)
+      ) +
+      card("calendar", "c-violet", s.daysOfHistory, dates.length) +
+      card(
+        "range",
+        "c-warn",
+        s.dateRange,
+        `${dates[0] || "—"} → ${dates[dates.length - 1] || "—"}`,
+        null,
+        null,
+        "small"
+      );
+
+    const c = chartColors();
+    charts.totals = renderLineChart(document.getElementById("totalsChartCanvas"), charts.totals, dates, totals, c.accent, c.accentFill);
+    charts.counts = renderLineChart(document.getElementById("countChartCanvas"), charts.counts, dates, counts, c.accent, c.accentFill);
+
+    const lastDate = dates[dates.length - 1];
+    document.getElementById("topMoversLabel").textContent = lastDate ? s.topMoversLabel(lastDate) : "";
+    const changes = (dayChanges[lastDate] || []).filter((c) => c.delta != null && c.delta !== 0);
+    const movers = document.getElementById("topMovers");
+    if (!changes.length) {
+      movers.innerHTML = `<li class="movers-item muted">${escapeHtml(s.noChanges)}</li>`;
+    } else {
+      movers.innerHTML = changes
+        .slice(0, 10)
+        .map(
+          (c) => `
+        <li class="movers-item">
+          <span class="movers-name" title="${escapeHtml(c.row.titleName)}">${escapeHtml(c.row.titleName)}</span>
+          <span class="movers-delta ${deltaClass(c.delta)}">${formatDelta(c.delta)}</span>
+        </li>`
+        )
+        .join("");
+    }
+  }
+
+  function renderByDay() {
+    const sel = document.getElementById("daySelect");
+    if (!sel.dataset.bound) {
+      sel.addEventListener("change", () => {
+        state.selectedDate = sel.value;
+        renderDayTable();
+      });
+      sel.dataset.bound = "1";
+    }
+    sel.innerHTML = state.dates
+      .slice()
+      .reverse()
+      .map((d) => `<option value="${d}">${d}</option>`)
+      .join("");
+    if (!state.selectedDate || !state.dates.includes(state.selectedDate)) {
+      state.selectedDate = state.dates[state.dates.length - 1];
+    }
+    sel.value = state.selectedDate;
+    renderDayTable();
+  }
+
+  function renderDayTable() {
+    const s = t().byday;
+    const wrap = document.getElementById("dayTableWrap");
+    const empty = document.getElementById("dayEmpty");
+    const tbody = document.getElementById("dayTbody");
+    empty.textContent = s.empty;
+    const q = state.query.trim().toLowerCase();
+    let list = state.dayChanges[state.selectedDate] || [];
+    if (q) {
+      list = list.filter(
+        (c) =>
+          (c.row.titleName || "").toLowerCase().includes(q) ||
+          (c.row.seriesName || "").toLowerCase().includes(q) ||
+          (c.row.publisher || "").toLowerCase().includes(q)
+      );
+    }
+    if (!list.length) {
+      wrap.classList.add("hidden");
+      empty.classList.remove("hidden");
+      return;
+    }
+    empty.classList.add("hidden");
+    wrap.classList.remove("hidden");
+    tbody.innerHTML = list
+      .map(
+        (c) => `
+      <tr class="data-row" data-id="${escapeHtml(c.row.id)}">
+        <td>
+          <div class="title-cell">
+            <svg class="chevron" width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 18l6-6-6-6" />
+            </svg>
+            <span class="title-name">${escapeHtml(c.row.titleName || "")}</span>
+          </div>
+        </td>
+        <td class="muted">${escapeHtml(c.row.seriesName || "")}</td>
+        <td class="num">${c.prev ?? "—"}</td>
+        <td class="num">${c.curr ?? "—"}</td>
+        <td class="num ${deltaClass(c.delta)}">${
+          c.prev == null ? `<span class="badge new">${escapeHtml(s.new)}</span>` : formatDelta(c.delta)
+        }</td>
+      </tr>`
+      )
+      .join("");
+
+    tbody.querySelectorAll("tr.data-row").forEach((tr) => {
+      tr.addEventListener("click", () => goToTitle(tr.dataset.id));
+    });
+  }
+
+  function renderTitles() {
+    const s = t().titles;
     const tbody = document.getElementById("tbody");
-    const table = document.getElementById("table");
+    const wrap = document.getElementById("titlesTableWrap");
     const empty = document.getElementById("empty");
+    empty.textContent = s.empty;
 
     const q = state.query.trim().toLowerCase();
     let rows = state.rows.filter((r) => {
+      if (state.filterLabel && r.label !== state.filterLabel) return false;
+      if (state.filterPublisher && r.publisher !== state.filterPublisher) return false;
+      if (state.filterTrend === "up" && !(r.delta > 0)) return false;
+      if (state.filterTrend === "down" && !(r.delta < 0)) return false;
       if (!q) return true;
       return (
         (r.titleName || "").toLowerCase().includes(q) ||
@@ -237,56 +1097,411 @@
       return (av - bv) * dir;
     });
 
-    document.querySelectorAll("thead th[data-key]").forEach((th) => {
+    document.querySelectorAll("#view-titles thead th[data-key]").forEach((th) => {
       th.classList.toggle("sorted", th.dataset.key === key);
     });
 
     if (!rows.length) {
-      table.hidden = true;
-      empty.style.display = "block";
+      wrap.classList.add("hidden");
+      empty.classList.remove("hidden");
       return;
     }
-    empty.style.display = "none";
-    table.hidden = false;
+    empty.classList.add("hidden");
+    wrap.classList.remove("hidden");
+
+    charts.details.forEach((chart) => chart.destroy());
+    charts.details.clear();
 
     tbody.innerHTML = rows
-      .map(
-        (r) => `
-      <tr>
+      .map((r) => {
+        const expanded = state.expanded.has(r.id);
+        const mainRow = `
+      <tr class="data-row ${expanded ? "is-expanded" : ""}" data-id="${escapeHtml(r.id)}">
         <td>
-          <div class="title-name">${escapeHtml(r.titleName || "")}</div>
-          <div class="series-name">${escapeHtml(r.seriesName || "")}</div>
+          <div class="title-cell">
+            <svg class="chevron" width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 18l6-6-6-6" />
+            </svg>
+            <div>
+              <div class="title-name">${escapeHtml(r.titleName || "")}</div>
+              <div class="fine">${escapeHtml(r.seriesName || "")}</div>
+            </div>
+          </div>
         </td>
-        <td>${escapeHtml(r.label || "")}</td>
-        <td>${escapeHtml(r.publisher || "")}</td>
-        <td>${escapeHtml(r.saleDate || "—")}</td>
+        <td class="muted">${escapeHtml(r.label || "")}</td>
+        <td class="muted">${escapeHtml(r.publisher || "")}</td>
+        <td class="muted">${escapeHtml(r.saleDate || "—")}</td>
         <td class="num">${r.reservationNumber ?? "—"}</td>
         <td class="num ${deltaClass(r.delta)}">${formatDelta(r.delta)}</td>
         <td>${sparkline(r.history)}</td>
+      </tr>`;
+        if (!expanded) return mainRow;
+        const notify = hasNotifyGap(r)
+          ? `<div class="notify-note">
+              <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-linecap="round" d="M12 11v5m0-8h.01"/></svg>
+              <div>
+                <strong>${escapeHtml(s.notifyLabel)}</strong>
+                <span>${escapeHtml(s.notifyExplain)}</span>
+              </div>
+            </div>`
+          : "";
+        const detailRow = `
+      <tr class="detail-row">
+        <td colspan="7">
+          <div class="title-name" style="margin-bottom:8px;">${escapeHtml(r.titleName || "")}</div>
+          <div class="chart-box" style="height:190px;margin-top:0;"><canvas id="detail-chart-${escapeHtml(r.id)}"></canvas></div>
+          ${notify}
+        </td>
+      </tr>`;
+        return mainRow + detailRow;
+      })
+      .join("");
+
+    rows
+      .filter((r) => state.expanded.has(r.id))
+      .forEach((r) => {
+        const canvas = document.getElementById(`detail-chart-${r.id}`);
+        if (!canvas) return;
+        const c = chartColors();
+        const rising = r.history[r.history.length - 1].reservationNumber >= r.history[0].reservationNumber;
+        const chart = renderLineChart(
+          canvas,
+          null,
+          r.history.map((h) => h.date),
+          r.history.map((h) => h.reservationNumber),
+          rising ? c.up : c.down,
+          rising ? c.upFill : c.downFill,
+          notifyAnnotation(r)
+        );
+        charts.details.set(r.id, chart);
+      });
+
+    tbody.querySelectorAll("tr.data-row").forEach((tr) => {
+      tr.addEventListener("click", () => {
+        const id = tr.dataset.id;
+        if (state.expanded.has(id)) state.expanded.delete(id);
+        else state.expanded.add(id);
+        renderTitles();
+      });
+    });
+  }
+
+  function goToTitle(id) {
+    state.query = "";
+    document.getElementById("search").value = "";
+    document.getElementById("searchClear").classList.add("hidden");
+    state.filterLabel = "";
+    state.filterPublisher = "";
+    state.filterTrend = "";
+    state.tab = "titles";
+    state.expanded.add(id);
+    applyTabStyles();
+    updateSearchPlaceholder();
+    renderFilterOptions();
+    renderTitles();
+    requestAnimationFrame(() => {
+      const row = document.querySelector(`tr.data-row[data-id="${CSS.escape(id)}"]`);
+      if (row) row.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  function seriesPalette() {
+    const c = chartColors();
+    return [c.accent, c.up, c.down, cssVar("--violet"), cssVar("--warn")];
+  }
+
+  function renderSeries() {
+    if (state.seriesView === "detail" && state.selectedSeriesId) {
+      const series = state.seriesIndex.find((s) => s.seriesId === state.selectedSeriesId);
+      if (series) {
+        renderSeriesDetail(series);
+        return;
+      }
+      state.seriesView = "list";
+    }
+    renderSeriesList();
+  }
+
+  function renderSeriesList() {
+    document.getElementById("seriesDetailWrap").classList.add("hidden");
+    document.getElementById("seriesListWrap").classList.remove("hidden");
+
+    const s = t().series;
+    const q = state.query.trim().toLowerCase();
+    const list = state.seriesIndex.filter((series) => {
+      if (!q) return true;
+      return (series.seriesName || "").toLowerCase().includes(q) || (series.label || "").toLowerCase().includes(q);
+    });
+
+    const grid = document.getElementById("seriesGrid");
+    const empty = document.getElementById("seriesEmpty");
+    empty.textContent = s.empty;
+    if (!list.length) {
+      grid.innerHTML = "";
+      empty.classList.remove("hidden");
+      return;
+    }
+    empty.classList.add("hidden");
+
+    grid.innerHTML = list
+      .map((series) => {
+        const last = series.volumes[series.volumes.length - 1];
+        return `
+      <button class="series-card" data-series-id="${escapeHtml(series.seriesId)}">
+        <div class="s-top">
+          <span class="badge" title="${escapeHtml(series.label || "")}">${escapeHtml(series.label || "—")}</span>
+          <span class="badge">${escapeHtml(s.volumes(series.volumes.length))}</span>
+        </div>
+        <div class="s-name" title="${escapeHtml(series.seriesName)}">${escapeHtml(series.seriesName)}</div>
+        <div class="s-stats">
+          <div>
+            <div class="s-stat-label">${escapeHtml(s.statLatest)}</div>
+            <div class="s-value ${deltaClass(last.delta)}">${last.reservationNumber ?? "—"}</div>
+          </div>
+          <div class="s-date">${escapeHtml(last.saleDate || "—")}</div>
+        </div>
+      </button>`;
+      })
+      .join("");
+
+    grid.querySelectorAll(".series-card").forEach((card) => {
+      card.addEventListener("click", () => {
+        state.selectedSeriesId = card.dataset.seriesId;
+        state.seriesView = "detail";
+        renderSeries();
+      });
+    });
+  }
+
+  function renderSeriesDetail(series) {
+    document.getElementById("seriesListWrap").classList.add("hidden");
+    document.getElementById("seriesDetailWrap").classList.remove("hidden");
+
+    const s = t().series;
+    document.getElementById("seriesDetailLabel").textContent = series.label || "—";
+    document.getElementById("seriesDetailName").textContent = series.seriesName;
+    document.getElementById("seriesChartLabel").textContent = s.chartTitle;
+    document.getElementById("seriesVolumesHeading").textContent = s.volumesHeading(series.volumes.length);
+
+    const last = series.volumes[series.volumes.length - 1];
+    document.getElementById("seriesStatGrid").innerHTML = `
+      <div class="stat-card">
+        <div class="stat-label">${escapeHtml(s.statVolumes)}</div>
+        <div class="stat-value">${series.volumes.length}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">${escapeHtml(s.statLatest)}</div>
+        <div class="stat-value ${deltaClass(last.delta)}">${last.reservationNumber ?? "—"}</div>
+        <div class="stat-sub ${deltaClass(last.delta)}">${formatDelta(last.delta)}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">${escapeHtml(s.statSaleDate)}</div>
+        <div class="stat-value small">${escapeHtml(last.saleDate || "—")}</div>
+      </div>
+    `;
+
+    const palette = seriesPalette();
+    const maxLen = Math.max(...series.volumes.map((v) => v.history.length));
+    const labels = Array.from({ length: maxLen }, (_, i) => `+${i}d`);
+    const c = chartColors();
+    if (charts.series) charts.series.destroy();
+    const options = baseChartOptions(c, t().locale);
+    options.plugins.legend = { display: series.volumes.length > 1, position: "bottom", labels: { color: c.text, boxWidth: 10, font: { size: 11 } } };
+    options.plugins.tooltip.callbacks.title = (items) => series.volumes[items[0].datasetIndex]?.titleName || "";
+    charts.series = new Chart(document.getElementById("seriesChartCanvas"), {
+      type: "line",
+      data: {
+        labels,
+        datasets: series.volumes.map((v, i) => ({
+          label: v.titleName,
+          data: v.history.map((h) => h.reservationNumber),
+          borderColor: palette[i % palette.length],
+          backgroundColor: "transparent",
+          fill: false,
+          tension: 0.3,
+          pointRadius: maxLen > 40 ? 0 : 3,
+          pointHoverRadius: 5,
+          pointBackgroundColor: palette[i % palette.length],
+        })),
+      },
+      options,
+    });
+
+    document.getElementById("seriesVolumesTbody").innerHTML = series.volumes
+      .map(
+        (v) => `
+      <tr>
+        <td class="title-name">${escapeHtml(v.titleName || "")}</td>
+        <td class="muted">${escapeHtml(v.saleDate || "—")}</td>
+        <td class="num">${v.reservationNumber ?? "—"}</td>
+        <td class="num ${deltaClass(v.delta)}">${formatDelta(v.delta)}</td>
+        <td>${sparkline(v.history)}</td>
       </tr>`
       )
       .join("");
   }
 
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, (c) => ({
-      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
-    }[c]));
+  function renderActiveTab() {
+    if (state.tab === "overview") renderOverview();
+    else if (state.tab === "byday") renderByDay();
+    else if (state.tab === "titles") renderTitles();
+    else if (state.tab === "series") renderSeries();
+  }
+
+  function applyTabStyles() {
+    document.querySelectorAll(".nav-item").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.tab === state.tab);
+    });
+    document.querySelectorAll("section.view").forEach((s) => {
+      s.classList.toggle("hidden", s.id !== `view-${state.tab}`);
+    });
+  }
+
+  function renderFilterOptions() {
+    const s = t().titles;
+    document.getElementById("filterReset").textContent = s.resetFilters;
+
+    const trendSel = document.getElementById("filterTrend");
+    trendSel.innerHTML = `
+      <option value="">${escapeHtml(s.trendAll)}</option>
+      <option value="up">${escapeHtml(s.trendUp)}</option>
+      <option value="down">${escapeHtml(s.trendDown)}</option>
+    `;
+    trendSel.value = state.filterTrend;
+
+    if (!state.loaded) return;
+
+    const labelSel = document.getElementById("filterLabel");
+    const labels = [...new Set(state.rows.map((r) => r.label).filter(Boolean))].sort();
+    labelSel.innerHTML =
+      `<option value="">${escapeHtml(s.allLabels)}</option>` +
+      labels.map((l) => `<option value="${escapeHtml(l)}">${escapeHtml(l)}</option>`).join("");
+    labelSel.value = state.filterLabel;
+
+    const pubSel = document.getElementById("filterPublisher");
+    const pubs = [...new Set(state.rows.map((r) => r.publisher).filter(Boolean))].sort();
+    pubSel.innerHTML =
+      `<option value="">${escapeHtml(s.allPublishers)}</option>` +
+      pubs.map((p) => `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`).join("");
+    pubSel.value = state.filterPublisher;
+  }
+
+  function applyStaticText() {
+    const s = t();
+    document.documentElement.lang = state.lang;
+    document.getElementById("subtitle").textContent = s.subtitle;
+    document.getElementById("loadingText").textContent = s.loading;
+    document.getElementById("search").placeholder = s.searchPlaceholder;
+    document.getElementById("langToggle").textContent = s.langToggle;
+    if (state.loaded) {
+      document.getElementById("lastUpdated").textContent = s.lastUpdated + ": " + (state.lastUpdatedRaw || "—");
+    }
+
+    document.querySelectorAll(".nav-item").forEach((btn) => {
+      btn.querySelector("span").textContent = s.tabs[btn.dataset.tab];
+    });
+
+    document.getElementById("totalsChartTitle").textContent = s.overview.totalsChartTitle;
+    document.getElementById("countChartTitle").textContent = s.overview.countChartTitle;
+    document.getElementById("topMoversTitle").textContent = s.overview.topMovers;
+
+    document.getElementById("bydayTitle").textContent = s.byday.title;
+    document.getElementById("bydayHint").textContent = s.byday.hint;
+    document.getElementById("dayColTitle").textContent = s.byday.colTitle;
+    document.getElementById("dayColSeries").textContent = s.byday.colSeries;
+    document.getElementById("dayColPrev").textContent = s.byday.colPrev;
+    document.getElementById("dayColNew").textContent = s.byday.colNew;
+    document.getElementById("dayColDelta").textContent = s.byday.colDelta;
+
+    document.querySelector('#view-titles thead th[data-key="titleName"]').textContent = s.titles.colTitle;
+    document.querySelector('#view-titles thead th[data-key="label"]').textContent = s.titles.colLabel;
+    document.querySelector('#view-titles thead th[data-key="publisher"]').textContent = s.titles.colPublisher;
+    document.querySelector('#view-titles thead th[data-key="saleDate"]').textContent = s.titles.colSaleDate;
+    document.querySelector('#view-titles thead th[data-key="reservationNumber"]').textContent = s.titles.colReservations;
+    document.querySelector('#view-titles thead th[data-key="delta"]').textContent = s.titles.colDelta;
+    document.getElementById("titlesColTrend").textContent = s.titles.colTrend;
+
+    const sortSelect = document.getElementById("sortSelect");
+    const prevValue = sortSelect.value || `${state.sortKey}-${state.sortDir}`;
+    sortSelect.innerHTML = Object.entries(s.titles.sortOptions)
+      .map(([value, label]) => `<option value="${value}">${escapeHtml(label)}</option>`)
+      .join("");
+    sortSelect.value = prevValue;
+
+    renderFilterOptions();
+
+    document.getElementById("seriesBackLabel").textContent = s.series.backToList;
+    document.getElementById("seriesChartLabel").textContent = s.series.chartTitle;
+    document.getElementById("seriesColTitle").textContent = s.series.colTitle;
+    document.getElementById("seriesColSaleDate").textContent = s.series.colSaleDate;
+    document.getElementById("seriesColReservations").textContent = s.series.colReservations;
+    document.getElementById("seriesColDelta").textContent = s.series.colDelta;
+    document.getElementById("seriesColTrend").textContent = s.series.colTrend;
+
+    updateSearchPlaceholder();
+  }
+
+  function updateSearchPlaceholder() {
+    const search = document.getElementById("search");
+    search.placeholder = state.tab === "series" ? t().series.searchHint : t().searchPlaceholder;
+  }
+
+  function applyTheme() {
+    document.documentElement.dataset.theme = state.theme;
+    document.getElementById("iconSun").classList.toggle("hidden", state.theme !== "dark");
+    document.getElementById("iconMoon").classList.toggle("hidden", state.theme === "dark");
+    localStorage.setItem("reservelogs:theme", state.theme);
+  }
+
+  function reactToSearch() {
+    if (state.tab === "byday") renderDayTable();
+    else if (state.tab === "titles") renderTitles();
+    else if (state.tab === "series" && state.seriesView === "list") renderSeriesList();
   }
 
   document.getElementById("search").addEventListener("input", (e) => {
     state.query = e.target.value;
-    render();
+    document.getElementById("searchClear").classList.toggle("hidden", !state.query);
+    reactToSearch();
+  });
+
+  document.getElementById("searchClear").addEventListener("click", () => {
+    const input = document.getElementById("search");
+    input.value = "";
+    state.query = "";
+    document.getElementById("searchClear").classList.add("hidden");
+    input.focus();
+    reactToSearch();
   });
 
   document.getElementById("sortSelect").addEventListener("change", (e) => {
     const [key, dir] = e.target.value.split("-");
     state.sortKey = key;
     state.sortDir = dir;
-    render();
+    renderTitles();
   });
 
-  document.querySelectorAll("thead th[data-key]").forEach((th) => {
+  document.getElementById("filterLabel").addEventListener("change", (e) => {
+    state.filterLabel = e.target.value;
+    renderTitles();
+  });
+  document.getElementById("filterPublisher").addEventListener("change", (e) => {
+    state.filterPublisher = e.target.value;
+    renderTitles();
+  });
+  document.getElementById("filterTrend").addEventListener("change", (e) => {
+    state.filterTrend = e.target.value;
+    renderTitles();
+  });
+  document.getElementById("filterReset").addEventListener("click", () => {
+    state.filterLabel = "";
+    state.filterPublisher = "";
+    state.filterTrend = "";
+    renderFilterOptions();
+    renderTitles();
+  });
+
+  document.querySelectorAll("#view-titles thead th[data-key]").forEach((th) => {
     th.addEventListener("click", () => {
       const key = th.dataset.key;
       if (state.sortKey === key) {
@@ -295,9 +1510,41 @@
         state.sortKey = key;
         state.sortDir = "desc";
       }
-      render();
+      renderTitles();
     });
   });
+
+  document.querySelectorAll(".nav-item").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.tab = btn.dataset.tab;
+      applyTabStyles();
+      updateSearchPlaceholder();
+      renderActiveTab();
+    });
+  });
+
+  document.getElementById("seriesBack").addEventListener("click", () => {
+    state.seriesView = "list";
+    renderSeries();
+  });
+
+  document.getElementById("themeToggle").addEventListener("click", () => {
+    state.theme = state.theme === "dark" ? "light" : "dark";
+    applyTheme();
+    if (state.loaded) renderActiveTab();
+  });
+
+  document.getElementById("langToggle").addEventListener("click", () => {
+    state.lang = state.lang === "en" ? "ja" : "en";
+    localStorage.setItem("reservelogs:lang", state.lang);
+    applyStaticText();
+    applyTabStyles();
+    if (state.loaded) renderActiveTab();
+  });
+
+  applyTheme();
+  applyStaticText();
+  applyTabStyles();
 
   fetch("data/reservations.json", { cache: "no-store" })
     .then((res) => {
@@ -305,17 +1552,25 @@
       return res.json();
     })
     .then((data) => {
-      document.getElementById("loading").style.display = "none";
-      document.getElementById("lastUpdated").textContent =
-        "Last updated: " + (data.lastUpdated || "unknown");
+      document.getElementById("loading").classList.add("hidden");
+      state.lastUpdatedRaw = data.lastUpdated || "—";
+      document.getElementById("lastUpdated").textContent = t().lastUpdated + ": " + state.lastUpdatedRaw;
       state.rows = flattenRows(data);
-      render();
+      const stats = buildDailyStats(state.rows);
+      state.dates = stats.dates;
+      state.dailyTotals = stats.totals;
+      state.dailyCounts = stats.counts;
+      state.dayChanges = stats.dayChanges;
+      state.seriesIndex = buildSeriesIndex(state.rows);
+      state.loaded = true;
+      renderFilterOptions();
+      renderActiveTab();
     })
     .catch((err) => {
-      document.getElementById("loading").style.display = "none";
+      document.getElementById("loading").classList.add("hidden");
       const el = document.getElementById("error");
-      el.style.display = "block";
-      el.textContent = "Failed to load data/reservations.json: " + err.message;
+      el.classList.remove("hidden");
+      el.textContent = t().error(err.message);
     });
 })();
 </script>
