@@ -323,15 +323,6 @@
   }
   .badge.new { border-color: var(--accent); background: var(--accent-fill); color: var(--accent); }
 
-  .notify-note {
-    display: flex; gap: 9px; margin-top: 12px; padding: 10px 12px;
-    background: var(--warn-fill); border: 1px solid var(--warn); border-radius: 10px;
-    color: var(--text); font-size: 12px; line-height: 1.5;
-  }
-  .notify-note svg { flex-shrink: 0; margin-top: 1px; color: var(--warn); }
-  .notify-note strong { display: block; color: var(--warn); font-size: 12.5px; margin-bottom: 2px; }
-  .notify-note span { color: var(--text-muted); }
-
   .state-block { padding: 60px 20px; text-align: center; color: var(--text-muted); font-size: 13.5px; }
   .state-block.error { color: var(--down); }
   .spinner {
@@ -588,8 +579,6 @@
         colTitle: "Title", colLabel: "Label", colPublisher: "Publisher", colSaleDate: "Sale date",
         colReservations: "Reservations", colDelta: "Δ since first", colTrend: "Trend",
         noTrend: "no trend",
-        notifyLabel: "Shaded area = before notification",
-        notifyExplain: "BookWalker doesn't notify followers the instant a title is listed. The shaded day is often 0 reservations because readers haven't been notified yet — the count usually jumps once the notification goes out the next day.",
         allLabels: "All labels",
         allPublishers: "All publishers",
         trendAll: "All trends",
@@ -650,8 +639,6 @@
         colTitle: "タイトル", colLabel: "レーベル", colPublisher: "出版社", colSaleDate: "発売日",
         colReservations: "予約数", colDelta: "Δ（初回比）", colTrend: "推移",
         noTrend: "推移データなし",
-        notifyLabel: "網掛け部分 = 通知が届く前",
-        notifyExplain: "BookWalkerは新刊が載ってすぐには通知を送りません。網掛けの日はまだ通知が届く前なので予約数0のことが多く、翌日に通知が届くと一気に伸びることが多いです。",
         allLabels: "すべてのレーベル",
         allPublishers: "すべての出版社",
         trendAll: "すべての傾向",
@@ -886,24 +873,24 @@
     });
   }
 
-  const NOTIFY_CUTOFF_DATE = "2026-06-28";
+  // const NOTIFY_CUTOFF_DATE = "2026-06-28";
 
-  function hasNotifyGap(row) {
-    return !!row.firstSeenDate && row.firstSeenDate >= NOTIFY_CUTOFF_DATE && row.history.length >= 2;
-  }
+  // function hasNotifyGap(row) {
+  //   return !!row.firstSeenDate && row.firstSeenDate >= NOTIFY_CUTOFF_DATE && row.history.length >= 2;
+  // }
 
-  function notifyAnnotation(row) {
-    if (!hasNotifyGap(row)) return null;
-    return {
-      notifyBox: {
-        type: "box",
-        xMin: row.history[0].date,
-        xMax: row.history[1].date,
-        backgroundColor: cssVar("--warn-fill"),
-        borderWidth: 0,
-      },
-    };
-  }
+  // function notifyAnnotation(row) {
+  //   if (!hasNotifyGap(row)) return null;
+  //   return {
+  //     notifyBox: {
+  //       type: "box",
+  //       xMin: row.history[0].date,
+  //       xMax: row.history[1].date,
+  //       backgroundColor: cssVar("--warn-fill"),
+  //       borderWidth: 0,
+  //     },
+  //   };
+  // }
 
   function deltaClass(delta) {
     if (delta == null || delta === 0) return "flat";
@@ -1136,21 +1123,20 @@
         <td>${sparkline(r.history)}</td>
       </tr>`;
         if (!expanded) return mainRow;
-        const notify = hasNotifyGap(r)
-          ? `<div class="notify-note">
-              <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-linecap="round" d="M12 11v5m0-8h.01"/></svg>
-              <div>
-                <strong>${escapeHtml(s.notifyLabel)}</strong>
-                <span>${escapeHtml(s.notifyExplain)}</span>
-              </div>
-            </div>`
-          : "";
+        // const notify = hasNotifyGap(r)
+        //   ? `<div class="notify-note">
+        //       <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path stroke-linecap="round" d="M12 11v5m0-8h.01"/></svg>
+        //       <div>
+        //         <strong>${escapeHtml(s.notifyLabel)}</strong>
+        //         <span>${escapeHtml(s.notifyExplain)}</span>
+        //       </div>
+        //     </div>`
+        //   : "";
         const detailRow = `
       <tr class="detail-row">
         <td colspan="7">
           <div class="title-name" style="margin-bottom:8px;">${escapeHtml(r.titleName || "")}</div>
           <div class="chart-box" style="height:190px;margin-top:0;"><canvas id="detail-chart-${escapeHtml(r.id)}"></canvas></div>
-          ${notify}
         </td>
       </tr>`;
         return mainRow + detailRow;
@@ -1170,8 +1156,7 @@
           r.history.map((h) => h.date),
           r.history.map((h) => h.reservationNumber),
           rising ? c.up : c.down,
-          rising ? c.upFill : c.downFill,
-          notifyAnnotation(r)
+          rising ? c.upFill : c.downFill
         );
         charts.details.set(r.id, chart);
       });
