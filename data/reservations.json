@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19",
+  "lastUpdated": "2026-08-20",
   "series": [
     {
       "seriesId": "557677",
@@ -1148,6 +1148,31 @@
           "reservationHistory": [
             {
               "date": "2026-07-23",
+              "reservationNumber": 0
+            }
+          ]
+        },
+        {
+          "productUuid": "6abf7e50-aeab-4d16-bebc-c3aca7518c9a",
+          "titleName": "ダッシュエックス文庫DIGITAL 2026年8月配信全作品試し読み",
+          "lightNovelType": "ラノベ",
+          "publisher": "集英社",
+          "priceBeforeTax": null,
+          "priceAfterTax": null,
+          "synopsis": "ダッシュエックス文庫DIGITAL、2026年8月配信作品を一気読み！\n全4作品を収録、新刊すべてをまとめてチェック！\n\n超人気の話題作から注目の新シリーズまで4作が一気に試し読みできる豪華デジタル小冊子!!\nラインナップはこちら!!\n\n第6回集英社WEB小説大賞＜銀賞＞受賞！\n『投げたら刺さった\n～ラッキーヒットで領主になった僕の成り上がり英雄譚～』も電子に登場！\n戦争も政治も運と人徳で予想を遥かに超える大活躍！　豪運から始まる超成り上がり英雄譚！\n\nパワー系“聖剣ゴーレム”が行く、異世界“勇者探し”の旅！\n『転生したら勇者しか抜けない剣が刺さった岩だった\n～勇者が来ないのでゴーレムになって自分で探しに行く！～』も読み逃せない！\n転生したのは、まさかの岩!!　聖剣が抜かれていないのに魔王は倒され、さらに魔族の残党がやってきて大ピンチに…!?\n\n近すぎる存在の二人が織りなすラブコメディ！\n『並行世界の自分が好みの美少女で癖も同じだったので恋してしまった』をご期待ください!!\n気の合う美少女は近すぎる存在。相互理解が完璧すぎる!?\n\n2ヶ月連続刊行、覇道を征く本格戦記ファンタジー！\n『戦狼と軍姫の征戦 2』もチェック！\n無敵と思われた帝国に生じたほころびは、野心を持つ戦狼たちを次々と目覚めさせ、動乱の時代へと誘う――。\n\n※収録作品の製品版は、このデジタル小冊子と同時配信している場合がございます。\n※当デジタル小冊子は、製品版と一部異なる可能性がありますので予めご了承ください。\n\n【収録作品】\n『投げたら刺さった ～ラッキーヒットで領主になった僕の成り上がり英雄譚～』塩野さち×赤嶺直樹\n『転生したら勇者しか抜けない剣が刺さった岩だった ～勇者が来ないのでゴーレムになって自分で探しに行く！～』長多良×夕子\n『並行世界の自分が好みの美少女で癖も同じだったので恋してしまった』八薙玉造×冬野ユウキ\n『戦狼と軍姫の征戦 2』川口士×美弥月いつか",
+          "originalPublicationDate": null,
+          "saleDate": "2026-08-21",
+          "staff": [
+            {
+              "name": "ダッシュエックス文庫編集部",
+              "role": "編集"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -3468,11 +3493,15 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
               "reservationNumber": 5
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 123
             }
           ]
         }
@@ -6318,7 +6347,7 @@
             }
           ],
           "firstSeenDate": "2026-07-22",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-22",
@@ -6431,6 +6460,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -6719,7 +6752,7 @@
             }
           ],
           "firstSeenDate": "2026-07-22",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-22",
@@ -6831,6 +6864,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -8697,7 +8734,7 @@
             }
           ],
           "firstSeenDate": "2026-08-06",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-06",
@@ -8750,6 +8787,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
             }
           ]
         }
@@ -9455,7 +9496,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -9472,6 +9513,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -16843,7 +16888,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -17059,6 +17104,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -17091,7 +17140,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -17307,6 +17356,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -17339,7 +17392,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -17555,6 +17608,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -17587,7 +17644,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -17804,6 +17861,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -17835,7 +17896,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -18052,6 +18113,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -18083,7 +18148,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -18300,6 +18365,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -18331,7 +18400,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -18548,6 +18617,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -18579,7 +18652,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -18796,6 +18869,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -18827,7 +18904,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -19044,6 +19121,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 2
             }
           ]
         }
@@ -19075,7 +19156,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -19292,6 +19373,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -19323,7 +19408,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -19540,6 +19625,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -19571,7 +19660,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -19787,6 +19876,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -19815,7 +19908,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -20031,6 +20124,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -20063,7 +20160,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -20280,6 +20377,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 3
             }
           ]
         }
@@ -20311,7 +20412,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -20527,6 +20628,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -20559,7 +20664,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -20776,6 +20881,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -20811,7 +20920,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -21028,6 +21137,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 2
             }
           ]
         }
@@ -21067,7 +21180,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -21284,6 +21397,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -21315,7 +21432,7 @@
             }
           ],
           "firstSeenDate": "2026-06-24",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-06-24",
@@ -21531,6 +21648,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -26445,7 +26566,7 @@
             }
           ],
           "firstSeenDate": "2026-07-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-01",
@@ -26642,6 +26763,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -26673,7 +26798,7 @@
             }
           ],
           "firstSeenDate": "2026-07-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-01",
@@ -26869,6 +26994,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -26901,7 +27030,7 @@
             }
           ],
           "firstSeenDate": "2026-07-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-01",
@@ -27097,6 +27226,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -31842,7 +31975,7 @@
             }
           ],
           "firstSeenDate": "2026-07-03",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-03",
@@ -32031,6 +32164,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 2
             }
           ]
         }
@@ -32062,7 +32199,7 @@
             }
           ],
           "firstSeenDate": "2026-07-03",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-03",
@@ -32250,6 +32387,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -32282,7 +32423,7 @@
             }
           ],
           "firstSeenDate": "2026-07-03",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-03",
@@ -32470,6 +32611,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -34827,7 +34972,7 @@
             }
           ],
           "firstSeenDate": "2026-07-07",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-07",
@@ -35000,6 +35145,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -35031,7 +35180,7 @@
             }
           ],
           "firstSeenDate": "2026-07-07",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-07",
@@ -35204,6 +35353,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -35239,7 +35392,7 @@
             }
           ],
           "firstSeenDate": "2026-07-07",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-07",
@@ -35412,6 +35565,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -35443,7 +35600,7 @@
             }
           ],
           "firstSeenDate": "2026-07-07",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-07",
@@ -35616,6 +35773,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -35647,7 +35808,7 @@
             }
           ],
           "firstSeenDate": "2026-07-07",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-07",
@@ -35820,6 +35981,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -35851,7 +36016,7 @@
             }
           ],
           "firstSeenDate": "2026-07-07",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-07",
@@ -36024,6 +36189,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -36171,7 +36340,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -36340,6 +36509,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -36371,7 +36544,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -36540,6 +36713,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -36571,7 +36748,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -36740,6 +36917,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -36771,7 +36952,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -36940,6 +37121,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -36971,7 +37156,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -37140,6 +37325,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -37171,7 +37360,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -37340,6 +37529,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -37371,7 +37564,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -37540,6 +37733,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -37571,7 +37768,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -37740,6 +37937,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -37771,7 +37972,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -37940,6 +38141,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -37971,7 +38176,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -38139,6 +38344,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -38171,7 +38380,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -38340,6 +38549,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -38371,7 +38584,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -38540,6 +38753,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -38571,7 +38788,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -38740,6 +38957,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -38771,7 +38992,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -38939,6 +39160,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -38971,7 +39196,7 @@
             }
           ],
           "firstSeenDate": "2026-07-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-08",
@@ -39139,6 +39364,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -43647,7 +43876,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -43672,6 +43901,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 3
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 6
             }
           ]
         }
@@ -44488,7 +44721,7 @@
             }
           ],
           "firstSeenDate": "2026-07-14",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-14",
@@ -44632,6 +44865,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -46881,7 +47118,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -46898,6 +47135,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -50592,7 +50833,7 @@
             }
           ],
           "firstSeenDate": "2026-07-21",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-21",
@@ -50709,6 +50950,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -50740,7 +50985,7 @@
             }
           ],
           "firstSeenDate": "2026-07-21",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-21",
@@ -50857,6 +51102,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -50888,7 +51137,7 @@
             }
           ],
           "firstSeenDate": "2026-07-21",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-21",
@@ -51004,6 +51253,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -51610,7 +51863,7 @@
             }
           ],
           "firstSeenDate": "2026-07-22",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-22",
@@ -51723,6 +51976,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -51754,7 +52011,7 @@
             }
           ],
           "firstSeenDate": "2026-07-22",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-22",
@@ -51867,6 +52124,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -51898,7 +52159,7 @@
             }
           ],
           "firstSeenDate": "2026-07-22",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-22",
@@ -52011,6 +52272,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -52042,7 +52307,7 @@
             }
           ],
           "firstSeenDate": "2026-07-22",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-22",
@@ -52155,6 +52420,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -52186,7 +52455,7 @@
             }
           ],
           "firstSeenDate": "2026-07-22",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-22",
@@ -52299,6 +52568,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -52330,7 +52603,7 @@
             }
           ],
           "firstSeenDate": "2026-07-22",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-22",
@@ -52442,6 +52715,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -53042,7 +53319,7 @@
             }
           ],
           "firstSeenDate": "2026-07-23",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-23",
@@ -53150,6 +53427,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 1
             }
           ]
@@ -57675,7 +57956,7 @@
             }
           ],
           "firstSeenDate": "2026-07-29",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-29",
@@ -57760,6 +58041,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 7
             }
           ]
         }
@@ -57787,7 +58072,7 @@
             }
           ],
           "firstSeenDate": "2026-07-29",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-29",
@@ -57872,6 +58157,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -57899,7 +58188,7 @@
             }
           ],
           "firstSeenDate": "2026-07-29",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-29",
@@ -57984,6 +58273,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -58011,7 +58304,7 @@
             }
           ],
           "firstSeenDate": "2026-07-29",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-29",
@@ -58096,6 +58389,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -58702,7 +58999,7 @@
             }
           ],
           "firstSeenDate": "2026-07-30",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-30",
@@ -58783,6 +59080,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -58814,7 +59115,7 @@
             }
           ],
           "firstSeenDate": "2026-07-30",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-30",
@@ -58895,6 +59196,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -58926,7 +59231,7 @@
             }
           ],
           "firstSeenDate": "2026-07-30",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-30",
@@ -59007,6 +59312,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
             }
           ]
         }
@@ -59038,7 +59347,7 @@
             }
           ],
           "firstSeenDate": "2026-07-30",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-30",
@@ -59119,6 +59428,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -59150,7 +59463,7 @@
             }
           ],
           "firstSeenDate": "2026-07-30",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-30",
@@ -59230,6 +59543,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 2
             }
           ]
@@ -59466,7 +59783,7 @@
             }
           ],
           "firstSeenDate": "2026-07-31",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-31",
@@ -59542,6 +59859,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -59567,7 +59888,7 @@
             }
           ],
           "firstSeenDate": "2026-07-31",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-31",
@@ -59643,6 +59964,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -59675,7 +60000,7 @@
             }
           ],
           "firstSeenDate": "2026-07-31",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-31",
@@ -59752,6 +60077,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -59783,7 +60112,7 @@
             }
           ],
           "firstSeenDate": "2026-07-31",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-07-31",
@@ -59859,6 +60188,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -61043,7 +61376,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -61116,6 +61449,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 6
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 3
             }
           ]
         }
@@ -61147,7 +61484,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -61220,6 +61557,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -61251,7 +61592,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -61324,6 +61665,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -61355,7 +61700,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -61428,6 +61773,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -61459,7 +61808,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -61532,6 +61881,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -61563,7 +61916,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -61636,6 +61989,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -61667,7 +62024,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -61740,6 +62097,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -61771,7 +62132,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -61843,6 +62204,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -61875,7 +62240,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -61947,6 +62312,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -61979,7 +62348,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -62051,6 +62420,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -62083,7 +62456,7 @@
             }
           ],
           "firstSeenDate": "2026-08-01",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-01",
@@ -62156,6 +62529,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -62183,7 +62560,7 @@
             }
           ],
           "firstSeenDate": "2026-08-03",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-03",
@@ -62247,6 +62624,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -63015,7 +63396,7 @@
             }
           ],
           "firstSeenDate": "2026-08-04",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-04",
@@ -63076,6 +63457,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -63107,7 +63492,7 @@
             }
           ],
           "firstSeenDate": "2026-08-04",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-04",
@@ -63167,6 +63552,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -63839,7 +64228,7 @@
             }
           ],
           "firstSeenDate": "2026-08-06",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-06",
@@ -63892,6 +64281,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -63923,7 +64316,7 @@
             }
           ],
           "firstSeenDate": "2026-08-06",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-06",
@@ -63976,6 +64369,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -64007,7 +64404,7 @@
             }
           ],
           "firstSeenDate": "2026-08-06",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-06",
@@ -64060,6 +64457,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -64091,7 +64492,7 @@
             }
           ],
           "firstSeenDate": "2026-08-06",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-06",
@@ -64144,6 +64545,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -64175,7 +64580,7 @@
             }
           ],
           "firstSeenDate": "2026-08-06",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-06",
@@ -64228,6 +64633,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -64259,7 +64668,7 @@
             }
           ],
           "firstSeenDate": "2026-08-06",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-06",
@@ -64312,6 +64721,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -64343,7 +64756,7 @@
             }
           ],
           "firstSeenDate": "2026-08-06",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-06",
@@ -64396,6 +64809,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -64427,7 +64844,7 @@
             }
           ],
           "firstSeenDate": "2026-08-06",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-06",
@@ -64479,6 +64896,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -68362,7 +68783,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -68407,6 +68828,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
             }
           ]
         }
@@ -68442,7 +68867,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -68487,6 +68912,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -68518,7 +68947,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -68563,6 +68992,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 7
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 8
             }
           ]
         }
@@ -68594,7 +69027,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -68639,6 +69072,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 4
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
             }
           ]
         }
@@ -68670,7 +69107,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -68715,6 +69152,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 2
             }
           ]
         }
@@ -68746,7 +69187,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -68791,6 +69232,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -68822,7 +69267,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -68867,6 +69312,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -68898,7 +69347,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -68943,6 +69392,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -68974,7 +69427,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -69019,6 +69472,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -69050,7 +69507,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -69095,6 +69552,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 3
             }
           ]
         }
@@ -69126,7 +69587,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -69170,6 +69631,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -69202,7 +69667,7 @@
             }
           ],
           "firstSeenDate": "2026-08-08",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-08",
@@ -69247,6 +69712,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -69278,7 +69747,7 @@
             }
           ],
           "firstSeenDate": "2026-08-10",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-10",
@@ -69315,6 +69784,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 3
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
             }
           ]
         }
@@ -69346,7 +69819,7 @@
             }
           ],
           "firstSeenDate": "2026-08-10",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-10",
@@ -69383,6 +69856,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -69414,7 +69891,7 @@
             }
           ],
           "firstSeenDate": "2026-08-10",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-10",
@@ -69451,6 +69928,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 4
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 2
             }
           ]
         }
@@ -69482,7 +69963,7 @@
             }
           ],
           "firstSeenDate": "2026-08-10",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-10",
@@ -69518,6 +69999,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -69778,7 +70263,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -69811,6 +70296,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -69838,7 +70327,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -69870,6 +70359,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -69902,7 +70395,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -69935,6 +70428,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 3
             }
           ]
         }
@@ -69966,7 +70463,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -69999,6 +70496,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 5
             }
           ]
         }
@@ -70030,7 +70531,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70063,6 +70564,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 17
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 9
             }
           ]
         }
@@ -70094,7 +70599,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70127,6 +70632,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 5
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
             }
           ]
         }
@@ -70158,7 +70667,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70190,6 +70699,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -70222,7 +70735,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70254,6 +70767,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -70286,7 +70803,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70318,6 +70835,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -70350,7 +70871,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70383,6 +70904,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 2
             }
           ]
         }
@@ -70414,7 +70939,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70446,6 +70971,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -70478,7 +71007,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70511,6 +71040,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
             }
           ]
         }
@@ -70542,7 +71075,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70575,6 +71108,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 3
             }
           ]
         }
@@ -70606,7 +71143,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70639,6 +71176,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 5
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 8
             }
           ]
         }
@@ -70670,7 +71211,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70703,6 +71244,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -70734,7 +71279,7 @@
             }
           ],
           "firstSeenDate": "2026-08-11",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-11",
@@ -70767,6 +71312,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -70789,7 +71338,7 @@
           "saleDate": null,
           "staff": [],
           "firstSeenDate": "2026-08-12",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-12",
@@ -70817,6 +71366,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -70901,7 +71454,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -70926,6 +71479,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
             }
           ]
         }
@@ -70957,7 +71514,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -70982,6 +71539,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 3
             }
           ]
         }
@@ -71013,7 +71574,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -71038,6 +71599,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
             }
           ]
         }
@@ -71069,7 +71634,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -71094,6 +71659,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 3
             }
           ]
         }
@@ -71125,7 +71694,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -71149,6 +71718,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -71181,7 +71754,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -71205,6 +71778,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 6
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 6
             }
           ]
@@ -71237,7 +71814,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -71261,6 +71838,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -71293,7 +71874,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -71317,6 +71898,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -71349,7 +71934,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -71373,6 +71958,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -71405,7 +71994,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -71429,6 +72018,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -71461,7 +72054,7 @@
             }
           ],
           "firstSeenDate": "2026-08-13",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-13",
@@ -71486,6 +72079,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -71560,7 +72157,7 @@
             }
           ],
           "firstSeenDate": "2026-08-14",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-14",
@@ -71580,6 +72177,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -71744,7 +72345,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -71760,6 +72361,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -71796,7 +72401,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -71812,6 +72417,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -71844,7 +72453,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -71861,6 +72470,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 3
             }
           ]
         }
@@ -71892,7 +72505,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -71909,6 +72522,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 2
             }
           ]
         }
@@ -71940,7 +72557,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -71956,6 +72573,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -71988,7 +72609,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72004,6 +72625,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72036,7 +72661,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72052,6 +72677,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72084,7 +72713,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72101,6 +72730,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -72132,7 +72765,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72148,6 +72781,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72180,7 +72817,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72196,6 +72833,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72228,7 +72869,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72244,6 +72885,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 1
             }
           ]
@@ -72276,7 +72921,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72293,6 +72938,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -72324,7 +72973,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72340,6 +72989,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72372,7 +73025,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72389,6 +73042,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 1
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
             }
           ]
         }
@@ -72420,7 +73077,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72436,6 +73093,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72468,7 +73129,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72484,6 +73145,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72516,7 +73181,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72532,6 +73197,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72564,7 +73233,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72580,6 +73249,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72612,7 +73285,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72629,6 +73302,10 @@
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -72660,7 +73337,7 @@
             }
           ],
           "firstSeenDate": "2026-08-15",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-15",
@@ -72676,6 +73353,10 @@
             },
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72704,10 +73385,14 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72740,11 +73425,15 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 16
             }
           ]
         }
@@ -72776,11 +73465,15 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 109
             }
           ]
         }
@@ -72812,11 +73505,15 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
               "reservationNumber": 2
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 58
             }
           ]
         }
@@ -72848,10 +73545,14 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72884,11 +73585,15 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -72920,11 +73625,15 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
               "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
             }
           ]
         }
@@ -72956,10 +73665,14 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
@@ -72992,10 +73705,338 @@
             }
           ],
           "firstSeenDate": "2026-08-19",
-          "lastSeenOnScheduleDate": "2026-08-19",
+          "lastSeenOnScheduleDate": "2026-08-20",
           "reservationHistory": [
             {
               "date": "2026-08-19",
+              "reservationNumber": 0
+            },
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "618691",
+      "seriesName": "斯くして彼は異能となった　合本版",
+      "label": "モーニングスターブックス",
+      "titles": [
+        {
+          "productUuid": "100a85bc-940a-40b7-bbb2-73981a1323a3",
+          "titleName": "斯くして彼は異能となった　１・２巻合本版【電子特典付】",
+          "lightNovelType": "新文芸",
+          "publisher": "新紀元社",
+          "priceBeforeTax": 2800,
+          "priceAfterTax": 3080,
+          "synopsis": "※この作品は『斯くして彼は異能となった』『斯くして彼は異能となった2』を収録した合本版です。重複購入にご注意ください。\n※電子１・２巻合本版の特典として、書き下ろしのショートストーリーを収録しています。\n\nあがいても、もがいても、絶望待ったなし\n敵が。\n　友人カップルに誘われるまま、行方不明者の噂が絶えない怪奇スポットへやってきた高校生の八俣智彦。\n　いつしか闇夜に支配された異界に足を踏み入れてしまった三人は、突然現れた化物から必死に逃げる中なんとか現実世界への扉に辿り着くも、友人たちの裏切りにより、智彦はただ一人、異界へ取り残されてしまう。\n生き残るため、生きて帰るため、自分を裏切った奴らに復讐を果たすため、化物を屠り蟲を食らい、“生還”を目指す智彦の死闘が始まった――。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-08-27",
+          "staff": [
+            {
+              "name": "後藤秀之真",
+              "role": "著"
+            },
+            {
+              "name": "つっく",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "166363",
+      "seriesName": "傭兵団の料理番",
+      "label": "ヒーロー文庫",
+      "titles": [
+        {
+          "productUuid": "1112cca8-2f82-4d98-a1fe-6679268d361e",
+          "titleName": "傭兵団の料理番　２３",
+          "lightNovelType": "ラノベ",
+          "publisher": "主婦の友社",
+          "priceBeforeTax": 840,
+          "priceAfterTax": 924,
+          "synopsis": "シリーズ累計１００万部突破！　超人気飯テロシリーズ最新刊！　ついにゴールイン？　それとも…？　コミックスも大好評！シリーズ累計１００万部突破！　超人気飯テロシリーズ最新刊！　ついにゴールイン？　それとも…？　コミックスも大好評！\n\n深い森から一人で生還するためのサバイバル訓練が始まった。\nしかし、シュリとギングスは早々に遭難してしまい、森を彷徨うことに。\nなぜかサバイバル適性を発揮するギングスを頼りに森から脱出した二人は、\nシュカーハ村に辿り着くものの、そこで気を失ってしまう。\n目を覚ました二人はジュドゥから工場で働くように言われ、従うのだった。\n仕事に慣れ、家を構え、恋人もできて幸福なギングスだったが、\n救出に来たエクレスたちに説教されてしまう。\n新たに家族を得たことで、改めてこの戦乱の世の中を\n終わらせる決意を固めるギングス。\nしかしシュリは、なぜ二人の恋を止めなかったのかとリルから説教される。\nまた、ガーンたち厨房の仲間からも説教される日々が続いた。\nある時、ふと自分の貯金額を確認したシュリは自分も店舗兼自宅を持とうと思い立つ。\nそして、一緒に住もうとリルにプロポーズをする。しかし、あまりにも唐突なのでリルは\n一旦保留にすることにしたが、シュリはそれをフラれたと勘違いして暴走。\nこのことでクウガたちから怒られたシュリは主要な面々の監視下で、\nアーリウスたちに連れてこられたリルと\n話し合いという名の茶番を行い、和解することができた。\n同時にエクレスがシュリに抱く恋心にもちゃんと決着をつけるべきと諭され、\nシュリはエクレスからの告白を断った。シュリと出会ってから続いた恋が\n終わったエクレスは、涙ながらにシュリの料理を食べる。\nそんなある時、テビス姫から書状が届く。\nそこにはアルトゥーリアが『神殿』を\n擁するフルムベルクに\n「宣戦布告」したと書かれていた---。\n\n川井 昂（カワイコウ）：広島県在住。本作にてデビュー。\n\n四季 童子（シキドウジ）：『異世界迷宮でハーレムを』(ヒーロー文庫)、『フルメタル・パニック!』、『セブン=フォートレス』、『モンスターコレクション』などのイラストレーションで知られる人気イラストレーター。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-08-31",
+          "staff": [
+            {
+              "name": "川井昂",
+              "role": "著"
+            },
+            {
+              "name": "四季童子",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "599382",
+      "seriesName": "貞操逆転学園で男友達が近すぎる",
+      "label": "ヒーロー文庫",
+      "titles": [
+        {
+          "productUuid": "435cceeb-3179-47a3-b49c-c1a9f658a185",
+          "titleName": "貞操逆転学園で男友達が近すぎる　２",
+          "lightNovelType": "ラノベ",
+          "publisher": "主婦の友社",
+          "priceBeforeTax": 820,
+          "priceAfterTax": 902,
+          "synopsis": "かぐや姫、参戦！　高飛車新ヒロイン、なぜかモブ男子に完全陥落!?　男女比1:99の学園生活を描いた話題作第２弾！かぐや姫、参戦！　高飛車新ヒロイン、なぜかモブ男子に完全陥落!?　男女比1:99の学園生活を描いた話題作第２弾！\n\n遅れて１年１組に入学してきたのは、国民的女優に\nして新たなゲームヒロイン、不入斗輝夜。通称かぐや姫。\nお姫様気質で自信満々、晴飛に熱烈な好意を向ける\nはずだった彼女は、男子専用ルーム前での騒動をきっかけに、知己と\nいう想定外の存在と出会ってしまう。晴飛のために彼女をフォローしよう\nとする知己だったが、前世仕込みの気遣い、社畜スキル、無自覚な\n人たらしぶりが、またしてもゲームのフラグを変な方向へとへし折っていく。\n一方、晴飛の知己への距離感もますます加速。さらにクレープデート、\nエッちゃん先生の看病、かぐや姫の暴走、虎嶺との接待騒動、\n２組女子たちの過剰な愛情と、知己が誰かを助けるたび、学園中の\n感情はややこしく絡まり合っていく。やがて迎えたクラス宿泊合宿。\n５組とのクラス入れ替え戦を前に、１組・２組の思惑が交錯する中、知己と\n晴飛は山中で遭難してしまう。命懸けの状況を乗り越えたはずなのに、\n待っていたのは感動の再会――ではなく、ヘリで登場するかぐや姫と、\n全校生徒を巻き込む大修羅場だった。\n「知己くんとはボクが一番仲良しなんだもん」\n「好き、好き、大好き。フニュ～～～♡」\n主人公を支えるだけのはずだったモブ男友達キャラに、\nなぜか全方向から重すぎる愛が集まっていく。\n貞操逆転学園ラブコメ、さらにカオスな第２巻！\n\nマイヨ：神奈川県在住。2023年に「U-15サッカー日本代表だけど部活は幼馴染と一緒の文芸部です」でデビュー。著書に「電車で殴られてるイケメン男子高校生を助けたら女子高の王子様だった件」など。\n\n霜月 えいと（シモツキエイト）：埼玉県在住。イラストレーター・漫画家。「黒白の勇者」 「クール・エール」(共にヒーロー文庫)、 「下ネタという概念が存在しない退屈な世界」等、多数の挿絵を担当。マンガ作品に「ガチャ廃人と粗忽な女神」など。",
+          "originalPublicationDate": null,
+          "saleDate": "2026-08-31",
+          "staff": [
+            {
+              "name": "マイヨ",
+              "role": "著"
+            },
+            {
+              "name": "霜月えいと",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "517251",
+      "seriesName": "無限の魔術師",
+      "label": "角川スニーカー文庫",
+      "titles": [
+        {
+          "productUuid": "20c08196-6789-4b58-877d-30f9ffd71db8",
+          "titleName": "無限の魔術師３　魔力無しで平民の子と迫害された俺。実は無限の魔力持ち。【電子特別版】",
+          "lightNovelType": "ラノベ",
+          "publisher": "KADOKAWA",
+          "priceBeforeTax": 860,
+          "priceAfterTax": 946,
+          "synopsis": "国の窮地さえも救う英雄の可能性は無限大！　魔獣サブノックを討伐した功績により、若くして子爵に叙勲されたレスト。新たにユーリ、セレスティーヌも婚約者に迎えたハーレム生活はますます過熱していく。そんな中、辺境伯令嬢・ウルラが学園に編入してくることに。ミステリアスな雰囲気を持つ彼女だが、レストに一目惚れして猛アプローチを開始!?\n　そして国内では遂に第三王子らによる大規模な内乱が勃発。国家の危機を救うため出陣したレストは圧倒的な実力で敵陣を鎮圧、敵将であり因縁のローデルとの一騎打ちをも制し、若き救国の英雄として新たな高みへと進む――!?\n\n――新世代の英雄は、時代を切り拓きその名を世界に轟かせる!!",
+          "originalPublicationDate": null,
+          "saleDate": "2026-09-01",
+          "staff": [
+            {
+              "name": "レオナールＤ",
+              "role": "著者"
+            },
+            {
+              "name": "ye_jji",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "574279",
+      "seriesName": "ダンジョンラスボス左遷おじさん",
+      "label": "角川スニーカー文庫",
+      "titles": [
+        {
+          "productUuid": "4c1a7695-2631-437f-bb15-e10fd7a11832",
+          "titleName": "ダンジョンラスボス左遷おじさん２　～駆け出し配信少女を助けたらなぜか注目度急上昇～【電子特別版】",
+          "lightNovelType": "ラノベ",
+          "publisher": "KADOKAWA",
+          "priceBeforeTax": 840,
+          "priceAfterTax": 924,
+          "synopsis": "元ラスボスおじさん、故郷へ！　今度は不遇な姪っ子のために現代無双！元ラスボスおじさん・八瀬川次郎は、気ままな現代人ライフを謳歌していた。ある日、次郎はふとした衝撃から忘れていた人間時代の記憶を取り戻す。因縁と向き合うため向かった故郷、広島のダンジョンで出会ったのは、ひそかに応援していた新人Dチューバーの少女・サナ。なんと彼女は、次郎の実の姪だった！　家庭環境に悩み、自身の才能に絶望する彼女を救うため、次郎は横暴な家族と対峙することに──。日々賑わうダンジョンコンビニの経営や政府からの攻略依頼、さらにはアパートに突如現れたエルフとの共闘まで!?　次々と巻き起こるトラブルを、今日も前職ラスボスの圧倒的な力によって無双解決！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-09-01",
+          "staff": [
+            {
+              "name": "ぎあまん",
+              "role": "著者"
+            },
+            {
+              "name": "さなだケイスイ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "619450",
+      "seriesName": "育成失敗と言われた元国民的美少女に手を貸したら、俺にだけ甘えてくるようになった",
+      "label": "角川スニーカー文庫",
+      "titles": [
+        {
+          "productUuid": "52daaeb2-8e0b-4b3c-9926-cedd9799456f",
+          "titleName": "育成失敗と言われた元国民的美少女に手を貸したら、俺にだけ甘えてくるようになった【電子特別版】",
+          "lightNovelType": "ラノベ",
+          "publisher": "KADOKAWA",
+          "priceBeforeTax": 820,
+          "priceAfterTax": 902,
+          "synopsis": "かつては憧れていた元子役少女、今は俺に頼り切り!?　天使のような可愛さと圧倒的な演技力、かつては国民的天才子役として一世を風靡した朝比奈透花。\n　しかし現在の彼女は――。\n　学校の制服はゆるゆる、授業は爆睡、世間から『育成失敗』と揶揄される無気力女子高生になってしまっていた!?　\n\n　そんな透花を放っておけない世話焼きな男子高校生・久賀遼は、彼女の輝きを取り戻すために身の回りの世話を焼き始める。\n「遼君、髪乾かして」「制服も着せて～」「手も繋いでほしい」\n　次第に透花は、遼にだけ甘々な素顔を見せてくるようになり――!?\n「遼君のせいで、私の『好き』は育成成功しちゃったよ？」\n\n　元天才子役少女との甘々ゼロ距離な再育成ラブコメ開幕！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-09-01",
+          "staff": [
+            {
+              "name": "丸焦　ししゃも",
+              "role": "著者"
+            },
+            {
+              "name": "みわべさくら",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "619462",
+      "seriesName": "置いてけぼりの烏と約束の花嫁",
+      "label": "角川ビーンズ文庫",
+      "titles": [
+        {
+          "productUuid": "03a3bead-bb1f-43df-90cb-a27050762d68",
+          "titleName": "塵芥のびいどろ　置いてけぼりの烏と約束の花嫁【電子特典付き】",
+          "lightNovelType": "ラノベ",
+          "publisher": "KADOKAWA",
+          "priceBeforeTax": 820,
+          "priceAfterTax": 902,
+          "synopsis": "この想いはガラス玉なんかじゃない。心揺さぶる和風ファンタジー！祖母を亡くしたくるみは、豊穣家の令嬢・美乃里に拾われ屋敷で働くことに。\nゴミ捨てに向かった裏山で出会ったのは御先烏のあやかし・芥。\n彼は使えそうな物を持ち帰ろうとしたくるみを「供物ドロボー！」と糾弾すると、祖母の形見の指輪を奪ってしまった。\n取り返そうと裏山へ通ううち、くるみは芥の本当の孤独を知り……\n「誰にでも捨てられないものはあるんだよ」\n寂しい烏と今を生きる少女の、心揺さぶる和風ファンタジー！\n\n【電子特典付き】\n豊穣家に生まれた、大切な新しい命。\nくるみはその子の名前を考えることになり――。\n特別書き下ろし短編『ビー玉の行方　～くるみ視点～』を収録！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-09-01",
+          "staff": [
+            {
+              "name": "ちづ",
+              "role": "著者"
+            },
+            {
+              "name": "盧",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "442738",
+      "seriesName": "契約婚した相手が鬼宰相でしたが、この度宰相室専任補佐官に任命された地味文官（変装中）は私です。",
+      "label": "角川ビーンズ文庫",
+      "titles": [
+        {
+          "productUuid": "121428dc-b28d-41eb-878b-9b4050119b07",
+          "titleName": "契約婚した相手が鬼宰相でしたが、この度宰相室専任補佐官に任命された地味文官（変装中）は私です。４【電子特典付き】",
+          "lightNovelType": "ラノベ",
+          "publisher": "KADOKAWA",
+          "priceBeforeTax": 820,
+          "priceAfterTax": 902,
+          "synopsis": "この『不貞賠償法』が目に入らぬか！　無責任な輩はがっつり懲らしめます！公爵夫人として領地を訪れたクリスティーヌは、視察先の養護院で\n離縁トラブルにより隣のオルランス領から逃げてきた女性と出会う。\n王宮にもオルランス領にまつわる告発状が届き、レオンと離れステファンと調査に赴くことに。\n「男に隙を見せるなよ」\n心配のあまり独占欲剥き出しな夫と愛を確かめ合い、いざ出発！\n「公爵夫人（クリスティーヌ）」と「文官（シャルロット）」二つの顔で、悪事を暴いてみせます！　\n溺愛深まる相思相愛夫婦のお仕事ストーリー！\n\n【電子特典付き】\nエルドリア神聖国への派遣をきっかけに始まった、ステファンとアイリーンの『期間限定のお付き合い』。\nただし――自動更新機能付き。\nステファンの一途で重い愛に素直に応えられないアイリーンだったが――？\n特別書き下ろし短編『【場外編】アイリーン課長とステファン室長は期間限定』を収録！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-09-01",
+          "staff": [
+            {
+              "name": "月白セブン",
+              "role": "著者"
+            },
+            {
+              "name": "鶏にく",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
+              "reservationNumber": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "619457",
+      "seriesName": "悪意しかない王命婚、確かに承りました",
+      "label": "角川ビーンズ文庫",
+      "titles": [
+        {
+          "productUuid": "dc03d94c-2e8e-49b1-89a8-f5e5e8b53db4",
+          "titleName": "悪意しかない王命婚、確かに承りました【電子特典付き】",
+          "lightNovelType": "ラノベ",
+          "publisher": "KADOKAWA",
+          "priceBeforeTax": 820,
+          "priceAfterTax": 902,
+          "synopsis": "悪意さえも幸運に変える、前向き令嬢と孤独な王子の痛快逆転劇！「この国で一番幸せにしてさしあげますわ――」王妃の悪意で”呪われた第二王子”ユリシスへ嫁がされた侯爵令嬢アメリア。だがどんな逆境も跳ね返す彼女に、心を閉ざしていたユリシスは生まれて初めての温もりを知る。それでも王都の悪意は辺境の地まで二人を追って来て……最悪の縁談から始まった二人は、幸せを掴み取れるのか!?　「政略でも、王命でもなく。心から、君に――」悪意を恐れぬ令嬢と孤独な王子の純愛物語！\n\n【電子特典付き】\nユリシスの誕生日にアメリアが贈るのは、心を込めた手作りのクッション。そして、二人の距離をぐっと縮める「もう一つのプレゼント」とは……？\n特別書き下ろし短編「お誕生日プレゼント」を収録！",
+          "originalPublicationDate": null,
+          "saleDate": "2026-09-01",
+          "staff": [
+            {
+              "name": "ミズメ",
+              "role": "著者"
+            },
+            {
+              "name": "南々瀬　なつ",
+              "role": "イラスト"
+            }
+          ],
+          "firstSeenDate": "2026-08-20",
+          "lastSeenOnScheduleDate": "2026-08-20",
+          "reservationHistory": [
+            {
+              "date": "2026-08-20",
               "reservationNumber": 0
             }
           ]
